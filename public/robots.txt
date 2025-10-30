@@ -1,2 +1,9 @@
-User-agent: *
-Disallow:
+User-agent: Scrapy
+Allow: /
+
+User-Agent: *
+Disallow: /imagetest
+Disallow: /wp-admin
+Disallow: /wp-includes
+Disallow: /wp-content/plugins/
+

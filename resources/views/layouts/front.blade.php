@@ -36,7 +36,7 @@
             }
         </style>
         
-        <meta name="description" content="Sign and Print Ripley in Derbyshire, the quality sign and vehicle graphics designers. Small to multi-national projects, single vehicles to large fleets!">
+        <meta name="description" content="Arrowhead Design & Printshop.">
         <link rel="canonical" href="#">
         
         <!-- Open Graph Meta Tags -->

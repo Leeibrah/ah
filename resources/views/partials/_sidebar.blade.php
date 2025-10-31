@@ -100,11 +100,11 @@
                     </a>
                 </li>
                 <li class="page_item page-item-43">
-                    <a href="{!! route('contacts') !!}" >Contact Arrow Head Design & Print
+                    <a href="{!! route('contacts') !!}" >Contact Us
                     </a>
                 </li>
             </ul>
         </ul>
-        <img
-            data-src=https://www.signs-print.com/wp-content/themes/signs-print/images/layout/mactac-awards.jpg alt="mactac awards logo" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" class=lazyload style="--smush-placeholder-width: 189px; --smush-placeholder-aspect-ratio: 189/111;">
+        <!-- <img
+            data-src=https://www.signs-print.com/wp-content/themes/signs-print/images/layout/mactac-awards.jpg alt="mactac awards logo" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" class=lazyload style="--smush-placeholder-width: 189px; --smush-placeholder-aspect-ratio: 189/111;"> -->
     </aside>

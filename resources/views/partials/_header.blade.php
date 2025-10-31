@@ -12,7 +12,7 @@
                             <a href="{!! route('home') !!}" aria-current="page">Home</a>
                         </li>
                         <li id="menu-item-73" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-73">
-                            <a href="{!! ('about') !!}">Who We Are</a>
+                            <a href="/about">Who We Are</a>
                         </li>
                         <li id="menu-item-71" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-71">
                             <a href="#">Services</a>

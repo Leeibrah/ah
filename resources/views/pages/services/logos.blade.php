@@ -15,9 +15,9 @@
 			</h2>
 			
 			<p>
-                Apparel and textile design is the art and process of creating clothing, fabrics, and fashion accessories by combining elements of style, color, pattern, and material. 
+                Logo design is the process of creating a unique visual symbol or mark that represents a brand, company, product, or service. 
                 <br>
-                It involves designing both the fabric (textile design) and the final garments (apparel design) to meet functional, aesthetic, and cultural needs.
+                It combines art, typography, color, and imagery to form an easily recognizable identity that communicates the brand’s values and personality.
             </p>
 
 			<div

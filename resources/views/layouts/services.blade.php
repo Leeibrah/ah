@@ -43,9 +43,9 @@
 							@include('partials._number')
 
 						</div>
-						<a href=https://www.facebook.com/arrowheadprintshop target=_blank>
+						<!-- <a href=https://www.facebook.com/arrowheadprintshop target=_blank>
 							<img data-src=https://www.signs-print.com/wp-content/themes/signs-print/images/layout/facebook-icon.png alt="facebook logo" id=facebook-logo src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" class=lazyload style="--smush-placeholder-width: 98px; --smush-placeholder-aspect-ratio: 98/100;">
-						</a>
+						</a> -->
 					</section>
 
 					

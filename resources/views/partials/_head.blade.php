@@ -1,35 +1,749 @@
 <head>
-    <!-- TITLE-->
-    <title>
-        {!! $page_title !!} :: Medixa Digital Marketing Agency
-    </title>
-    <!-- FAV ICON -->
-    <meta charset="UTF-8">
-    <meta name="description" content="Medixa Digital - {!! $page_description !!}">
-    <meta name="keywords" content="Medixa Digital Marketing Agency, Design, Web Design, Web Development, 
-    Social Media Marketing, Social Media Management, Search Engine Marketing, Search Engine Optimization, Influencer Marketing,
-    Branding, Packaging, Pay per Click, Videography, Customer Acquisition, Content Creation, Content generation, {!! $page_title !!}, in Nairobi, Mombasa, Nakuru, Kisumu, Eldoret, Machakos, Kitui, Kakamega, Kilifi, Kenya">
-    <meta name="author" content="Lee Ibrahim">
-    <link rel="icon" type="image/x-icon" href="images/favicon.png">
-    <link rel="shortcut icon" href="/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <!-- Latest IE rendering engine & Chrome Frame Meta Tags -->
-    <!--[if IE]>
-        <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
-          <![endif]-->
-    <!-- GOOGLE FONT
-        ================================================== -->
-    <link rel="stylesheet" href="/css/all.min.css">
-    <!-- Bootstrap Css -->
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
-    <!-- Magnific Popup Css -->
-    <link rel="stylesheet" href="/css/magnific-popup.css">
-    <!-- Animate Css -->
-    <link rel="stylesheet" href="/css/animate.css">
-    <!-- Slick-Slide-Css -->
-    <link rel="stylesheet" href="/css/slick.css">
-    <!-- Style Css -->
-    <link rel="stylesheet" href="/css/style.css">
-    <!-- Responsive Css -->
-    <link rel="stylesheet" href="/css/responsive.css">
-</head>
+        <meta charset="UTF-8">
+        <title>
+            {{ $page_title }} :: Arrow Head Design & Printshop
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <link rel="stylesheet" href="/wp-content/themes/signs-print/style.css">
+        
+        <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        
+        <link rel="shortcut icon" href="/favicon.png">
+        <link rel="apple-touch-icon" href="/wp-content/themes/signs-print/images/apple-touch-icon.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="/wp-content/themes/signs-print/images/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="/wp-content/themes/signs-print/images/apple-touch-icon-114x114.png">
+        
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+        <style>
+            img:is([sizes="auto" i], [sizes^="auto," i]) {
+                contain-intrinsic-size: 3000px 1500px;
+            }
+        </style>
+        
+        <meta name="description" content="Arrowhead Design & Printshop.">
+        <link rel="canonical" href="#">
+        
+        <!-- Open Graph Meta Tags -->
+        <meta property="og:locale" content="en_US">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="Sign and Print Ripley in Derbyshire, single vans to fleets | shop signs to corporate re-brands">
+        <meta property="og:description" content="Sign and Print Ripley in Derbyshire, the quality sign and vehicle graphics designers. Small to multi-national projects, single vehicles to large fleets!">
+        <meta property="og:url" content="https://www.signs-print.com/">
+        <meta property="article:modified_time" content="2013-11-26T21:35:50+00:00">
+        <meta property="og:image" content="http://www.signs-print.com/wp-content/themes/signs-print/images/layout/side-graphic.png">
+        
+        <!-- Schema.org JSON-LD -->
+        <script type="application/ld+json" class="yoast-schema-graph">
+            {
+                "@context": "https://schema.org",
+                "@graph": [
+                    {
+                        "@type": "WebPage",
+                        "@id": "https://www.signs-print.com/",
+                        "url": "https://www.signs-print.com/",
+                        "name": "Sign and Print Ripley in Derbyshire, single vans to fleets | shop signs to corporate re-brands",
+                        "isPartOf": {
+                            "@id": "https://www.signs-print.com/#website"
+                        },
+                        "primaryImageOfPage": {
+                            "@id": "https://www.signs-print.com/#primaryimage"
+                        },
+                        "image": {
+                            "@id": "https://www.signs-print.com/#primaryimage"
+                        },
+                        "thumbnailUrl": "http://www.signs-print.com/wp-content/themes/signs-print/images/layout/side-graphic.png",
+                        "datePublished": "2013-11-25T21:15:05+00:00",
+                        "dateModified": "2013-11-26T21:35:50+00:00",
+                        "description": "Sign and Print Ripley in Derbyshire, the quality sign and vehicle graphics designers. Small to multi-national projects, single vehicles to large fleets!",
+                        "breadcrumb": {
+                            "@id": "https://www.signs-print.com/#breadcrumb"
+                        },
+                        "inLanguage": "en-US",
+                        "potentialAction": [
+                            {
+                                "@type": "ReadAction",
+                                "target": ["https://www.signs-print.com/"]
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "ImageObject",
+                        "inLanguage": "en-US",
+                        "@id": "https://www.signs-print.com/#primaryimage",
+                        "url": "http://www.signs-print.com/wp-content/themes/signs-print/images/layout/side-graphic.png",
+                        "contentUrl": "http://www.signs-print.com/wp-content/themes/signs-print/images/layout/side-graphic.png"
+                    },
+                    {
+                        "@type": "BreadcrumbList",
+                        "@id": "https://www.signs-print.com/#breadcrumb",
+                        "itemListElement": [
+                            {
+                                "@type": "ListItem",
+                                "position": 1,
+                                "name": "Home"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "WebSite",
+                        "@id": "https://www.signs-print.com/#website",
+                        "url": "https://www.signs-print.com/",
+                        "name": "",
+                        "description": "",
+                        "potentialAction": [
+                            {
+                                "@type": "SearchAction",
+                                "target": {
+                                    "@type": "EntryPoint",
+                                    "urlTemplate": "https://www.signs-print.com/?s={search_term_string}"
+                                },
+                                "query-input": {
+                                    "@type": "PropertyValueSpecification",
+                                    "valueRequired": true,
+                                    "valueName": "search_term_string"
+                                }
+                            }
+                        ],
+                        "inLanguage": "en-US"
+                    }
+                ]
+            }
+        </script>
+        
+        <link rel="dns-prefetch" href="#">
+        
+        <style>
+            .lazyload,
+            .lazyloading {
+                max-width: 100%;
+            }
+        </style>
+        
+        <!-- WordPress Emoji Script -->
+        <script>
+            /*<![CDATA[*/
+            window._wpemojiSettings = {
+                "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/",
+                "ext": ".png",
+                "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/",
+                "svgExt": ".svg",
+                "source": {
+                    "concatemoji": "https:\/\/www.signs-print.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=45719f136b7b39f5e6464bf3e39d7ea2"
+                }
+            };
+            /*! This file is auto-generated */
+            !function(i, n) {
+                var o, s, e;
+                function c(e) {
+                    try {
+                        var t = {
+                            supportTests: e,
+                            timestamp: (new Date).valueOf()
+                        };
+                        sessionStorage.setItem(o, JSON.stringify(t))
+                    } catch (e) {}
+                }
+                function p(e, t, n) {
+                    e.clearRect(0, 0, e.canvas.width, e.canvas.height), e.fillText(t, 0, 0);
+                    var t = new Uint32Array(e.getImageData(0, 0, e.canvas.width, e.canvas.height).data),
+                        r = (e.clearRect(0, 0, e.canvas.width, e.canvas.height), e.fillText(n, 0, 0), new Uint32Array(e.getImageData(0, 0, e.canvas.width, e.canvas.height).data));
+                    return t.every(function(e, t) {
+                        return e === r[t]
+                    })
+                }
+                function u(e, t, n) {
+                    switch (t) {
+                        case "flag":
+                            return n(e, "\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f", "\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f") ? !1 : !n(e, "\ud83c\uddfa\ud83c\uddf3", "\ud83c\uddfa\u200b\ud83c\uddf3") && !n(e, "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f", "\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");
+                        case "emoji":
+                            return !n(e, "\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff", "\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff")
+                    }
+                    return !1
+                }
+                function f(e, t, n) {
+                    var r = "undefined" != typeof WorkerGlobalScope && self instanceof WorkerGlobalScope ? new OffscreenCanvas(300, 150) : i.createElement("canvas"),
+                        a = r.getContext("2d", {
+                            willReadFrequently: !0
+                        }),
+                        o = (a.textBaseline = "top", a.font = "600 32px Arial", {});
+                    return e.forEach(function(e) {
+                        o[e] = t(a, e, n)
+                    }), o
+                }
+                function t(e) {
+                    var t = i.createElement("script");
+                    t.src = e, t.defer = !0, i.head.appendChild(t)
+                }
+                "undefined" != typeof Promise && (o = "wpEmojiSettingsSupports", s = ["flag", "emoji"], n.supports = {
+                    everything: !0,
+                    everythingExceptFlag: !0
+                }, e = new Promise(function(e) {
+                    i.addEventListener("DOMContentLoaded", e, {
+                        once: !0
+                    })
+                }), new Promise(function(t) {
+                    var n = function() {
+                        try {
+                            var e = JSON.parse(sessionStorage.getItem(o));
+                            if ("object" == typeof e && "number" == typeof e.timestamp && (new Date).valueOf() < e.timestamp + 604800 && "object" == typeof e.supportTests) return e.supportTests
+                        } catch (e) {}
+                        return null
+                    }();
+                    if (!n) {
+                        if ("undefined" != typeof Worker && "undefined" != typeof OffscreenCanvas && "undefined" != typeof URL && URL.createObjectURL && "undefined" != typeof Blob) try {
+                            var e = "postMessage(" + f.toString() + "(" + [JSON.stringify(s), u.toString(), p.toString()].join(",") + "));",
+                                r = new Blob([e], {
+                                    type: "text/javascript"
+                                }),
+                                a = new Worker(URL.createObjectURL(r), {
+                                    name: "wpTestEmojiSupports"
+                                });
+                            return void (a.onmessage = function(e) {
+                                c(n = e.data), a.terminate(), t(n)
+                            })
+                        } catch (e) {}
+                        c(n = f(s, u, p))
+                    }
+                    t(n)
+                }).then(function(e) {
+                    for (var t in e) n.supports[t] = e[t], n.supports.everything = n.supports.everything && n.supports[t], "flag" !== t && (n.supports.everythingExceptFlag = n.supports.everythingExceptFlag && n.supports[t]);
+                    n.supports.everythingExceptFlag = n.supports.everythingExceptFlag && !n.supports.flag, n.DOMReady = !1, n.readyCallback = function() {
+                        n.DOMReady = !0
+                    }
+                }).then(function() {
+                    return e
+                }).then(function() {
+                    var e;
+                    n.supports.everything || (n.readyCallback(), (e = n.source || {}).concatemoji ? t(e.concatemoji) : e.wpemoji && e.twemoji && (t(e.twemoji), t(e.wpemoji)))
+                }))
+            }((window, document), window._wpemojiSettings);
+            /*]]>*/
+        </script>
+        
+        <style id="wp-emoji-styles-inline-css">
+            img.wp-smiley,
+            img.emoji {
+                display: inline !important;
+                border: none !important;
+                box-shadow: none !important;
+                height: 1em !important;
+                width: 1em !important;
+                margin: 0 0.07em !important;
+                vertical-align: -0.1em !important;
+                background: none !important;
+                padding: 0 !important;
+            }
+        </style>
+        
+        <!-- WordPress Styles -->
+        <link rel="stylesheet" id="wp-block-library-css" href="https://www.signs-print.com/wp-includes/css/dist/block-library/style.min.css?ver=45719f136b7b39f5e6464bf3e39d7ea2" type="text/css" media="all">
+        
+        <style id="classic-theme-styles-inline-css">
+            /*! This file is auto-generated */
+            .wp-block-button__link {
+                color: #fff;
+                background-color: #32373c;
+                border-radius: 9999px;
+                box-shadow: none;
+                text-decoration: none;
+                padding: calc(.667em + 2px) calc(1.333em + 2px);
+                font-size: 1.125em
+            }
+            
+            .wp-block-file__button {
+                background: #32373c;
+                color: #fff;
+                text-decoration: none
+            }
+        </style>
+        
+        <style id="global-styles-inline-css">
+            /*<![CDATA[*/
+            body {
+                --wp--preset--color--black: #000;
+                --wp--preset--color--cyan-bluish-gray: #abb8c3;
+                --wp--preset--color--white: #fff;
+                --wp--preset--color--pale-pink: #f78da7;
+                --wp--preset--color--vivid-red: #cf2e2e;
+                --wp--preset--color--luminous-vivid-orange: #ff6900;
+                --wp--preset--color--luminous-vivid-amber: #fcb900;
+                --wp--preset--color--light-green-cyan: #7bdcb5;
+                --wp--preset--color--vivid-green-cyan: #00d084;
+                --wp--preset--color--pale-cyan-blue: #8ed1fc;
+                --wp--preset--color--vivid-cyan-blue: #0693e3;
+                --wp--preset--color--vivid-purple: #9b51e0;
+                --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg, rgba(6, 147, 227, 1) 0%, rgb(155, 81, 224) 100%);
+                --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg, rgb(122, 220, 180) 0%, rgb(0, 208, 130) 100%);
+                --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg, rgba(252, 185, 0, 1) 0%, rgba(255, 105, 0, 1) 100%);
+                --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg, rgba(255, 105, 0, 1) 0%, rgb(207, 46, 46) 100%);
+                --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg, rgb(238, 238, 238) 0%, rgb(169, 184, 195) 100%);
+                --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg, rgb(74, 234, 220) 0%, rgb(151, 120, 209) 20%, rgb(207, 42, 186) 40%, rgb(238, 44, 130) 60%, rgb(251, 105, 98) 80%, rgb(254, 248, 76) 100%);
+                --wp--preset--gradient--blush-light-purple: linear-gradient(135deg, rgb(255, 206, 236) 0%, rgb(152, 150, 240) 100%);
+                --wp--preset--gradient--blush-bordeaux: linear-gradient(135deg, rgb(254, 205, 165) 0%, rgb(254, 45, 45) 50%, rgb(107, 0, 62) 100%);
+                --wp--preset--gradient--luminous-dusk: linear-gradient(135deg, rgb(255, 203, 112) 0%, rgb(199, 81, 192) 50%, rgb(65, 88, 208) 100%);
+                --wp--preset--gradient--pale-ocean: linear-gradient(135deg, rgb(255, 245, 203) 0%, rgb(182, 227, 212) 50%, rgb(51, 167, 181) 100%);
+                --wp--preset--gradient--electric-grass: linear-gradient(135deg, rgb(202, 248, 128) 0%, rgb(113, 206, 126) 100%);
+                --wp--preset--gradient--midnight: linear-gradient(135deg, rgb(2, 3, 129) 0%, rgb(40, 116, 252) 100%);
+                --wp--preset--font-size--small: 13px;
+                --wp--preset--font-size--medium: 20px;
+                --wp--preset--font-size--large: 36px;
+                --wp--preset--font-size--x-large: 42px;
+                --wp--preset--spacing--20: 0.44rem;
+                --wp--preset--spacing--30: 0.67rem;
+                --wp--preset--spacing--40: 1rem;
+                --wp--preset--spacing--50: 1.5rem;
+                --wp--preset--spacing--60: 2.25rem;
+                --wp--preset--spacing--70: 3.38rem;
+                --wp--preset--spacing--80: 5.06rem;
+                --wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
+                --wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
+                --wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
+                --wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);
+                --wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1)
+            }
+            
+            :where(.is-layout-flex) {
+                gap: 0.5em
+            }
+            
+            :where(.is-layout-grid) {
+                gap: 0.5em
+            }
+            
+            body .is-layout-flow>.alignleft {
+                float: left;
+                margin-inline-start: 0;
+                margin-inline-end: 2em
+            }
+            
+            body .is-layout-flow>.alignright {
+                float: right;
+                margin-inline-start: 2em;
+                margin-inline-end: 0
+            }
+            
+            body .is-layout-flow>.aligncenter {
+                margin-left: auto !important;
+                margin-right: auto !important
+            }
+            
+            body .is-layout-constrained>.alignleft {
+                float: left;
+                margin-inline-start: 0;
+                margin-inline-end: 2em
+            }
+            
+            body .is-layout-constrained>.alignright {
+                float: right;
+                margin-inline-start: 2em;
+                margin-inline-end: 0
+            }
+            
+            body .is-layout-constrained>.aligncenter {
+                margin-left: auto !important;
+                margin-right: auto !important
+            }
+            
+            body .is-layout-constrained>:where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+                max-width: var(--wp--style--global--content-size);
+                margin-left: auto !important;
+                margin-right: auto !important
+            }
+            
+            body .is-layout-constrained>.alignwide {
+                max-width: var(--wp--style--global--wide-size)
+            }
+            
+            body .is-layout-flex {
+                display: flex
+            }
+            
+            body .is-layout-flex {
+                flex-wrap: wrap;
+                align-items: center
+            }
+            
+            body .is-layout-flex>* {
+                margin: 0
+            }
+            
+            body .is-layout-grid {
+                display: grid
+            }
+            
+            body .is-layout-grid>* {
+                margin: 0
+            }
+            
+            :where(.wp-block-columns.is-layout-flex) {
+                gap: 2em
+            }
+            
+            :where(.wp-block-columns.is-layout-grid) {
+                gap: 2em
+            }
+            
+            :where(.wp-block-post-template.is-layout-flex) {
+                gap: 1.25em
+            }
+            
+            :where(.wp-block-post-template.is-layout-grid) {
+                gap: 1.25em
+            }
+            
+            .has-black-color {
+                color: var(--wp--preset--color--black) !important
+            }
+            
+            .has-cyan-bluish-gray-color {
+                color: var(--wp--preset--color--cyan-bluish-gray) !important
+            }
+            
+            .has-white-color {
+                color: var(--wp--preset--color--white) !important
+            }
+            
+            .has-pale-pink-color {
+                color: var(--wp--preset--color--pale-pink) !important
+            }
+            
+            .has-vivid-red-color {
+                color: var(--wp--preset--color--vivid-red) !important
+            }
+            
+            .has-luminous-vivid-orange-color {
+                color: var(--wp--preset--color--luminous-vivid-orange) !important
+            }
+            
+            .has-luminous-vivid-amber-color {
+                color: var(--wp--preset--color--luminous-vivid-amber) !important
+            }
+            
+            .has-light-green-cyan-color {
+                color: var(--wp--preset--color--light-green-cyan) !important
+            }
+            
+            .has-vivid-green-cyan-color {
+                color: var(--wp--preset--color--vivid-green-cyan) !important
+            }
+            
+            .has-pale-cyan-blue-color {
+                color: var(--wp--preset--color--pale-cyan-blue) !important
+            }
+            
+            .has-vivid-cyan-blue-color {
+                color: var(--wp--preset--color--vivid-cyan-blue) !important
+            }
+            
+            .has-vivid-purple-color {
+                color: var(--wp--preset--color--vivid-purple) !important
+            }
+            
+            .has-black-background-color {
+                background-color: var(--wp--preset--color--black) !important
+            }
+            
+            .has-cyan-bluish-gray-background-color {
+                background-color: var(--wp--preset--color--cyan-bluish-gray) !important
+            }
+            
+            .has-white-background-color {
+                background-color: var(--wp--preset--color--white) !important
+            }
+            
+            .has-pale-pink-background-color {
+                background-color: var(--wp--preset--color--pale-pink) !important
+            }
+            
+            .has-vivid-red-background-color {
+                background-color: var(--wp--preset--color--vivid-red) !important
+            }
+            
+            .has-luminous-vivid-orange-background-color {
+                background-color: var(--wp--preset--color--luminous-vivid-orange) !important
+            }
+            
+            .has-luminous-vivid-amber-background-color {
+                background-color: var(--wp--preset--color--luminous-vivid-amber) !important
+            }
+            
+            .has-light-green-cyan-background-color {
+                background-color: var(--wp--preset--color--light-green-cyan) !important
+            }
+            
+            .has-vivid-green-cyan-background-color {
+                background-color: var(--wp--preset--color--vivid-green-cyan) !important
+            }
+            
+            .has-pale-cyan-blue-background-color {
+                background-color: var(--wp--preset--color--pale-cyan-blue) !important
+            }
+            
+            .has-vivid-cyan-blue-background-color {
+                background-color: var(--wp--preset--color--vivid-cyan-blue) !important
+            }
+            
+            .has-vivid-purple-background-color {
+                background-color: var(--wp--preset--color--vivid-purple) !important
+            }
+            
+            .has-black-border-color {
+                border-color: var(--wp--preset--color--black) !important
+            }
+            
+            .has-cyan-bluish-gray-border-color {
+                border-color: var(--wp--preset--color--cyan-bluish-gray) !important
+            }
+            
+            .has-white-border-color {
+                border-color: var(--wp--preset--color--white) !important
+            }
+            
+            .has-pale-pink-border-color {
+                border-color: var(--wp--preset--color--pale-pink) !important
+            }
+            
+            .has-vivid-red-border-color {
+                border-color: var(--wp--preset--color--vivid-red) !important
+            }
+            
+            .has-luminous-vivid-orange-border-color {
+                border-color: var(--wp--preset--color--luminous-vivid-orange) !important
+            }
+            
+            .has-luminous-vivid-amber-border-color {
+                border-color: var(--wp--preset--color--luminous-vivid-amber) !important
+            }
+            
+            .has-light-green-cyan-border-color {
+                border-color: var(--wp--preset--color--light-green-cyan) !important
+            }
+            
+            .has-vivid-green-cyan-border-color {
+                border-color: var(--wp--preset--color--vivid-green-cyan) !important
+            }
+            
+            .has-pale-cyan-blue-border-color {
+                border-color: var(--wp--preset--color--pale-cyan-blue) !important
+            }
+            
+            .has-vivid-cyan-blue-border-color {
+                border-color: var(--wp--preset--color--vivid-cyan-blue) !important
+            }
+            
+            .has-vivid-purple-border-color {
+                border-color: var(--wp--preset--color--vivid-purple) !important
+            }
+            
+            .has-vivid-cyan-blue-to-vivid-purple-gradient-background {
+                background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important
+            }
+            
+            .has-light-green-cyan-to-vivid-green-cyan-gradient-background {
+                background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important
+            }
+            
+            .has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
+                background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important
+            }
+            
+            .has-luminous-vivid-orange-to-vivid-red-gradient-background {
+                background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important
+            }
+            
+            .has-very-light-gray-to-cyan-bluish-gray-gradient-background {
+                background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important
+            }
+            
+            .has-cool-to-warm-spectrum-gradient-background {
+                background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important
+            }
+            
+            .has-blush-light-purple-gradient-background {
+                background: var(--wp--preset--gradient--blush-light-purple) !important
+            }
+            
+            .has-blush-bordeaux-gradient-background {
+                background: var(--wp--preset--gradient--blush-bordeaux) !important
+            }
+            
+            .has-luminous-dusk-gradient-background {
+                background: var(--wp--preset--gradient--luminous-dusk) !important
+            }
+            
+            .has-pale-ocean-gradient-background {
+                background: var(--wp--preset--gradient--pale-ocean) !important
+            }
+            
+            .has-electric-grass-gradient-background {
+                background: var(--wp--preset--gradient--electric-grass) !important
+            }
+            
+            .has-midnight-gradient-background {
+                background: var(--wp--preset--gradient--midnight) !important
+            }
+            
+            .has-small-font-size {
+                font-size: var(--wp--preset--font-size--small) !important
+            }
+            
+            .has-medium-font-size {
+                font-size: var(--wp--preset--font-size--medium) !important
+            }
+            
+            .has-large-font-size {
+                font-size: var(--wp--preset--font-size--large) !important
+            }
+            
+            .has-x-large-font-size {
+                font-size: var(--wp--preset--font-size--x-large) !important
+            }
+            
+            .wp-block-navigation a:where(:not(.wp-element-button)) {
+                color: inherit
+            }
+            
+            :where(.wp-block-post-template.is-layout-flex) {
+                gap: 1.25em
+            }
+            
+            :where(.wp-block-post-template.is-layout-grid) {
+                gap: 1.25em
+            }
+            
+            :where(.wp-block-columns.is-layout-flex) {
+                gap: 2em
+            }
+            
+            :where(.wp-block-columns.is-layout-grid) {
+                gap: 2em
+            }
+            
+            .wp-block-pullquote {
+                font-size: 1.5em;
+                line-height: 1.6
+            }
+            /*]]>*/
+        </style>
+        
+        <!-- NextGen Gallery Styles -->
+        <link rel="stylesheet" id="ngg_trigger_buttons-css" href="https://www.signs-print.com/wp-content/plugins/nextgen-gallery/static/GalleryDisplay/trigger_buttons.css?ver=3.59.12" type="text/css" media="all">
+        <link rel="stylesheet" id="photocrati-nextgen_pro_lightbox-0-css" href="https://www.signs-print.com/wp-content/plugins/nextgen-gallery-plus/modules/nextgen_pro_lightbox/static/style.css?ver=3.59.12" type="text/css" media="all">
+        <link rel="stylesheet" id="photocrati-nextgen_pro_lightbox-1-css" href="https://www.signs-print.com/wp-content/plugins/nextgen-gallery-plus/modules/nextgen_pro_lightbox/static/theme/galleria.nextgen_pro_lightbox.css?ver=3.59.12" type="text/css" media="all">
+        <link rel="stylesheet" id="fontawesome_v4_shim_style-css" href="https://www.signs-print.com/wp-content/plugins/nextgen-gallery/static/FontAwesome/css/v4-shims.min.css?ver=45719f136b7b39f5e6464bf3e39d7ea2" type="text/css" media="all">
+        <link rel="stylesheet" id="fontawesome-css" href="https://www.signs-print.com/wp-content/plugins/nextgen-gallery/static/FontAwesome/css/all.min.css" type="text/css" media="all">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <link rel="stylesheet" id="nextgen_pagination_style-css" href="https://www.signs-print.com/wp-content/plugins/nextgen-gallery/static/GalleryDisplay/pagination_style.css?ver=3.59.12" type="text/css" media="all">
+        <link rel="stylesheet" id="nextgen_basic_thumbnails_style-css" href="https://www.signs-print.com/wp-content/plugins/nextgen-gallery/static/Thumbnails/nextgen_basic_thumbnails.css?ver=3.59.12" type="text/css" media="all">
+        <link rel="stylesheet" id="nextgen_widgets_style-css" href="https://www.signs-print.com/wp-content/plugins/nextgen-gallery/static/Widget/display.css?ver=3.59.12" type="text/css" media="all">
+        
+        <!-- JavaScript Libraries -->
+        <script src="https://www.signs-print.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+        <script src="https://www.signs-print.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+        
+        <script id="snazzymaps-js-js-extra">
+            var SnazzyDataForSnazzyMaps = [];
+            SnazzyDataForSnazzyMaps = {
+                "id": 15,
+                "name": "Subtle Grayscale",
+                "description": "A nice, simple grayscale version of the map with color extremes that are never too harsh on the eyes. Originally created for http:\/\/barvinssurvins.fr\/situer.",
+                "url": "https:\/\/snazzymaps.com\/style\/15\/subtle-grayscale",
+                "imageUrl": "https:\/\/snazzy-maps-cdn.azureedge.net\/assets\/15-subtle-grayscale.png?v=20170406121808",
+                "json": "[{\"featureType\":\"administrative\",\"elementType\":\"all\",\"stylers\":[{\"saturation\":\"-100\"}]},{\"featureType\":\"administrative.province\",\"elementType\":\"all\",\"stylers\":[{\"visibility\":\"off\"}]},{\"featureType\":\"landscape\",\"elementType\":\"all\",\"stylers\":[{\"saturation\":-100},{\"lightness\":65},{\"visibility\":\"on\"}]},{\"featureType\":\"poi\",\"elementType\":\"all\",\"stylers\":[{\"saturation\":-100},{\"lightness\":\"50\"},{\"visibility\":\"simplified\"}]},{\"featureType\":\"road\",\"elementType\":\"all\",\"stylers\":[{\"saturation\":\"-100\"}]},{\"featureType\":\"road.highway\",\"elementType\":\"all\",\"stylers\":[{\"visibility\":\"simplified\"}]},{\"featureType\":\"road.arterial\",\"elementType\":\"all\",\"stylers\":[{\"lightness\":\"30\"}]},{\"featureType\":\"road.local\",\"elementType\":\"all\",\"stylers\":[{\"lightness\":\"40\"}]},{\"featureType\":\"transit\",\"elementType\":\"all\",\"stylers\":[{\"saturation\":-100},{\"visibility\":\"simplified\"}]},{\"featureType\":\"water\",\"elementType\":\"geometry\",\"stylers\":[{\"hue\":\"#ffff00\"},{\"lightness\":-25},{\"saturation\":-97}]},{\"featureType\":\"water\",\"elementType\":\"labels\",\"stylers\":[{\"lightness\":-25},{\"saturation\":-100}]}]",
+                "views": 365735,
+                "favorites": 662,
+                "createdBy": {
+                    "name": "Paulo Avila",
+                    "url": null
+                },
+                "createdOn": "2013-10-30T16:37:24.593",
+                "tags": ["greyscale", "light"],
+                "colors": ["gray", "white"]
+            };
+        </script>
+        
+        <script src="https://www.signs-print.com/wp-content/plugins/snazzy-maps/snazzymaps.js?ver=1.5.0" id="snazzymaps-js-js"></script>
+        
+        <script id="photocrati_ajax-js-extra">
+            var photocrati_ajax = {
+                "url": "https:\/\/www.signs-print.com\/index.php?photocrati_ajax=1",
+                "rest_url": "https:\/\/www.signs-print.com\/wp-json\/",
+                "wp_home_url": "https:\/\/www.signs-print.com",
+                "wp_site_url": "https:\/\/www.signs-print.com",
+                "wp_root_url": "https:\/\/www.signs-print.com",
+                "wp_plugins_url": "https:\/\/www.signs-print.com\/wp-content\/plugins",
+                "wp_content_url": "https:\/\/www.signs-print.com\/wp-content",
+                "wp_includes_url": "https:\/\/www.signs-print.com\/wp-includes\/",
+                "ngg_param_slug": "nggallery",
+                "rest_nonce": "1187e48994"
+            };
+        </script>
+        
+        <script src="https://www.signs-print.com/wp-content/plugins/nextgen-gallery/static/Legacy/ajax.min.js?ver=3.59.12" id="photocrati_ajax-js"></script>
+        <script src="https://www.signs-print.com/wp-content/plugins/nextgen-gallery-plus/modules/galleria/static/galleria-1.6.1.js?ver=1.6.1" id="ngg_galleria-js"></script>
+        <script src="https://www.signs-print.com/wp-content/plugins/nextgen-gallery/static/FontAwesome/js/v4-shims.min.js?ver=5.3.1" id="fontawesome_v4_shim-js"></script>
+        <script defer crossorigin="anonymous" data-auto-replace-svg="false" data-keep-original-source="false" data-search-pseudo-elements src="https://www.signs-print.com/wp-content/plugins/nextgen-gallery/static/FontAwesome/js/all.min.js?ver=5.3.1" id="fontawesome-js"></script>
+        <script src="https://www.signs-print.com/wp-content/plugins/nextgen-gallery-plus/modules/picturefill/static/picturefill.min.js?ver=3.0.2" id="picturefill-js"></script>
+        <script src="https://www.signs-print.com/wp-content/plugins/nextgen-gallery/static/Thumbnails/nextgen_basic_thumbnails.js?ver=3.59.12" id="nextgen_basic_thumbnails_script-js"></script>
+        
+        <!-- WordPress API Links -->
+        <link rel="https://api.w.org/" href="/wp-json/#">
+        <link rel="alternate" type="application/json" href="/wp-json/wp/v2/pages/33">
+        <link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc.php%3Frsd">
+        <link rel="shortlink" href="#">
+        <link rel="alternate" type="application/json+oembed" href="/wp-json/oembed/1.0/embed%3Furl=https:%252F%252Fwww.signs-print.com%252F">
+        <link rel="alternate" type="text/xml+oembed" href="/wp-json/oembed/1.0/embed%3Furl=https:%252F%252Fwww.signs-print.com%252F&amp;format=xml">
+        
+        <script>
+            document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
+        </script>
+        
+        <style>
+            /*<![CDATA[*/
+            .no-js img.lazyload {
+                display: none
+            }
+            
+            figure.wp-block-image img.lazyloading {
+                min-width: 150px
+            }
+            
+            .lazyload,
+            .lazyloading {
+                --smush-placeholder-width: 100px;
+                --smush-placeholder-aspect-ratio: 1/1;
+                width: var(--smush-image-width, var(--smush-placeholder-width)) !important;
+                aspect-ratio: var(--smush-image-aspect-ratio, var(--smush-placeholder-aspect-ratio)) !important
+            }
+            
+            .lazyload,
+            .lazyloading {
+                opacity: 0
+            }
+            
+            .lazyloaded {
+                opacity: 1;
+                transition: opacity 400ms;
+                transition-delay: 0ms
+            }
+            /*]]>*/
+        </style>
+        
+        <!-- Google Analytics -->
+        <script>
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-12920445-1']);
+            _gaq.push(['_trackPageview']);
+            (function() {
+                var ga = document.createElement('script');
+                ga.type = 'text/javascript';
+                ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(ga, s);
+            })();
+        </script>
+    </head>

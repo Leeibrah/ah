@@ -21,12 +21,17 @@ class ServicesController extends Controller
         return view('index', compact('page_title', 'page_description'));
     }
 
-    public function architecturalSigns(){
+    public function socialMediaAdverts(){
 
-        $page_title = 'Architectural Signs';
-        $page_description = "This is the Architectural Signs page";
+        $page_title = 'Social Media Adverts';
+        $page_description = "This is the Social Media Adverts page";
 
-        return view('pages.services.architectural-signs', compact('page_title', 'page_description'));
+        $service_tag = 'Social Media Adverts';
+        $service_description = 'A social media advert is any paid post or campaign a business runs on a social platform to promote products, services, or ideas to targeted users.';
+
+        $service_banner_image = '/wp-content/uploads/2013/11/business-stationery-printing-page-header.jpg';
+
+        return view('pages.services.social-media-adverts', compact('page_title', 'page_description', 'service_tag', 'service_description', 'service_banner_image'));
     }
 
     public function businessStationary(){

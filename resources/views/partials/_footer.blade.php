@@ -2,7 +2,7 @@
     <div class="container">
         <div class="sixteen columns">
             <a href="index.html">
-                <img data-src="white-logo.png" alt="Arrow Head Logo" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" class="lazyload" style="--smush-placeholder-width: 356px; --smush-placeholder-aspect-ratio: 356/84;">
+                <img data-src="/white-logo.png" alt="Arrow Head Logo" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" class="lazyload" style="--smush-placeholder-width: 356px; --smush-placeholder-aspect-ratio: 356/84;">
             </a>
             
             <p>

@@ -31,17 +31,17 @@ Route::get( '/auth/logout',             ['as' => 'logout',                      
 
 // Route::group(['prefix' => ''], function() {
 // // Route::group(['namespace' => 'App\Http\Controllers', 'as' => 'services.'], function () {
-//     Route::get('/', 'ServicesController@index')->name('index');
-//     Route::get('services/architectural-signs', 'ServicesController@architecturalSigns')->name('services.architectural-signs');
-//     Route::get('services/business-stationary', 'ServicesController@businessStationary')->name('services.business-stationary');
-//     Route::get('services/exterior-signs', 'ServicesController@exteriorSigns')->name('services.exterior-signs');
-//     Route::get('services/industrial-signs', 'ServicesController@industrialSigns')->name('services.industrial-signs');
-//     Route::get('services/interior-signs', 'ServicesController@interiorSigns')->name('services.interior-signs');
-//     Route::get('services/internal-decoration', 'ServicesController@internalDecoration')->name('services.internal-decoration');
-//     Route::get('services/letters-logos', 'ServicesController@lettersLogos')->name('services.letters-logos');
-//     Route::get('services/point-of-sale', 'ServicesController@pointOfSale')->name('services.point-of-sale');
-//     Route::get('services/shop-front-signs', 'ServicesController@shopFrontSigns')->name('services.shop-front-signs');
-//     Route::get('services/vehicle-graphics', 'ServicesController@vehicleGraphics')->name('services.vehicle-graphics');
+//     // Route::get('/', 'ServicesController@index')->name('index');
+//     Route::get('services/social-media-adverts', 'ServicesController@socialMediaAdverts')->name('social-media-adverts');
+//     // Route::get('services/business-stationary', 'ServicesController@businessStationary')->name('services.business-stationary');
+//     // Route::get('services/exterior-signs', 'ServicesController@exteriorSigns')->name('services.exterior-signs');
+//     // Route::get('services/industrial-signs', 'ServicesController@industrialSigns')->name('services.industrial-signs');
+//     // Route::get('services/interior-signs', 'ServicesController@interiorSigns')->name('services.interior-signs');
+//     // Route::get('services/internal-decoration', 'ServicesController@internalDecoration')->name('services.internal-decoration');
+//     // Route::get('services/letters-logos', 'ServicesController@lettersLogos')->name('services.letters-logos');
+//     // Route::get('services/point-of-sale', 'ServicesController@pointOfSale')->name('services.point-of-sale');
+//     // Route::get('services/shop-front-signs', 'ServicesController@shopFrontSigns')->name('services.shop-front-signs');
+//     // Route::get('services/vehicle-graphics', 'ServicesController@vehicleGraphics')->name('services.vehicle-graphics');
 
 // });
 
@@ -49,26 +49,58 @@ Route::get( '/',    ['as' => 'home',    'uses' => 'HomeController@index']);
 Route::get( 'home', ['as' => 'home',    'uses' => 'HomeController@index']);
 
 Route::get( 'about', ['as' => 'about',  'uses' => 'HomeController@about']);
+Route::get( 'testimonials',  ['as' => 'testimonials',   'uses' => 'HomeController@testimonials']);
 Route::get( 'gallery',  ['as' => 'gallery',   'uses' => 'HomeController@gallery']);
 // Route::get( 'all',                     ['as' => 'all',                            'uses' => 'HomeController@all']);
 
-Route::group(['prefix' => 'services'], function() {
+// Route::group(['prefix' => 'services'], function() {
 
-    // Route::get('index',                     ['as' => 'services.index',                  'uses' => 'ServiceController@index']);
-    // Route::get('/', 'ServicesController@index']);
-    Route::get('architectural-signs', ['as' => 'services.architectural-signs',       'uses' => 'ServicesController@architecturalSigns']);
-    Route::get('business-stationary', ['as' => 'services.business-stationary',       'uses' => 'ServicesController@businessStationary']);
-    Route::get('exterior-signs', ['as' => 'services.exterior-signs',       'uses' => 'ServicesController@exteriorSigns']);
-    Route::get('industrial-signs', ['as' => 'services.industrial-signs',       'uses' => 'ServicesController@industrialSigns']);
-    Route::get('interior-signs', ['as' => 'services.interior-signs',       'uses' => 'ServicesController@interiorSigns']);
-    Route::get('internal-decoration', ['as' => 'services.internal-decoration',       'uses' => 'ServicesController@internalDecoration']);
-    Route::get('letters-logos', ['as' => 'services.letters-logos',       'uses' => 'ServicesController@lettersLogos']);
-    Route::get('point-of-sale', ['as' => 'services.point-of-sale',       'uses' => 'ServicesController@pointOfSale']);
-    Route::get('shop-front-signs', ['as' => 'services.shop-front-signs',       'uses' => 'ServicesController@shopFrontSigns']);
-    Route::get('vehicle-graphics',         ['as' => 'services.vehicle-graphics',       'uses' => 'ServicesController@vehicleGraphics']);
-    
+    // Route::get('index',                     ['as' => 'services.index',                  'uses' => 'ServicesController@index']);
+//     // Route::get('/', 'ServicesController@index']);
+    // Route::get('social-media-adverts', ['as' => 'services.social-media-adverts',       'uses' => 'ServicesController@socialMediaAdverts']);
+//     Route::get('business-stationary', ['as' => 'services.business-stationary',       'uses' => 'ServicesController@businessStationary']);
+//     Route::get('exterior-signs', ['as' => 'services.exterior-signs',       'uses' => 'ServicesController@exteriorSigns']);
+//     Route::get('industrial-signs', ['as' => 'services.industrial-signs',       'uses' => 'ServicesController@industrialSigns']);
+//     Route::get('interior-signs', ['as' => 'services.interior-signs',       'uses' => 'ServicesController@interiorSigns']);
+//     Route::get('internal-decoration', ['as' => 'services.internal-decoration',       'uses' => 'ServicesController@internalDecoration']);
+//     Route::get('letters-logos', ['as' => 'services.letters-logos',       'uses' => 'ServicesController@lettersLogos']);
+//     Route::get('point-of-sale', ['as' => 'services.point-of-sale',       'uses' => 'ServicesController@pointOfSale']);
+//     Route::get('shop-front-signs', ['as' => 'services.shop-front-signs',       'uses' => 'ServicesController@shopFrontSigns']);
+//     Route::get('vehicle-graphics',         ['as' => 'services.vehicle-graphics',       'uses' => 'ServicesController@vehicleGraphics']);
+// });
 
-});
+
+Route::get('index',                     ['as' => 'services.index',                  'uses' => 'ServicesController@index']);
+Route::get('services/social-media-adverts', ['as' => 'services.social-media-adverts',       'uses' => 'ServicesController@socialMediaAdverts']);
+Route::get('services/indoor-branding', ['as' => 'services.indoor-branding',       'uses' => 'ServicesController@indoorBranding']);
+Route::get('services/outdoor-branding', ['as' => 'services.outdoor-branding',       'uses' => 'ServicesController@outdoorBranding']);
+Route::get('services/roll-up-banners', ['as' => 'services.roll-up-banners',       'uses' => 'ServicesController@rollUpBanners']);
+Route::get('services/smiley-living-spaces', ['as' => 'services.smiley-living-spaces',       'uses' => 'ServicesController@smileyLivingSpaces']);
+Route::get('services/logos', ['as' => 'services.logos',       'uses' => 'ServicesController@Logo']);
+Route::get('services/promo-give-aways', ['as' => 'services.promo-give-aways',       'uses' => 'ServicesController@promoGiveAways']);
+
+Route::get('services/drinkwares', ['as' => 'services.drinkwares',       'uses' => 'ServicesController@drinkwares']);
+Route::get('services/canvas-and-crafts', ['as' => 'services.canvas-and-crafts', 'uses' => 'ServicesController@canvasAndCrafts']);
+Route::get('services/desk-and-accessories', ['as' => 'services.desk-and-accessories', 'uses' => 'ServicesController@deskAndAccessories']);
+Route::get('services/apparels-and-textiles', ['as' => 'services.apparels-and-textiles', 'uses' => 'ServicesController@apparelsAndTextiles']);
+Route::get('services/custom-branded-merchandise', ['as' => 'services.custom-branded-merchandise', 'uses' => 'ServicesController@customBrandedMerchandise']);
+Route::get('services/health-and-safety', ['as' => 'services.health-and-safety', 'uses' => 'ServicesController@healthAndSafety']);
+
+
+// Route::group(['prefix' => 'services'], function() {
+
+//     Route::get('index',                     ['as' => 'services.index',                  'uses' => 'ServicesController@index']);
+//     Route::get('social-media-adverts', ['as' => 'services.social-media-adverts',       'uses' => 'ServicesController@socialMediaAdverts']);
+//     Route::get('indoor-branding', ['as' => 'services.indoor-branding',       'uses' => 'ServicesController@indoorBranding']);
+//     Route::get('outdoor-branding', ['as' => 'services.outdoor-branding',       'uses' => 'ServicesController@outdoorBranding']);
+//     Route::get('roll-up-banners', ['as' => 'services.roll-up-banners',       'uses' => 'ServicesController@rollUpBanners']);
+//     Route::get('smiley-living-spaces', ['as' => 'services.smiley-living-spaces',       'uses' => 'ServicesController@interiorSigns']);
+//     Route::get('internal-decoration', ['as' => 'services.internal-decoration',       'uses' => 'ServicesController@internalDecoration']);
+//     Route::get('letters-logos', ['as' => 'services.letters-logos',       'uses' => 'ServicesController@lettersLogos']);
+//     Route::get('point-of-sale', ['as' => 'services.point-of-sale',       'uses' => 'ServicesController@pointOfSale']);
+//     Route::get('shop-front-signs', ['as' => 'services.shop-front-signs',       'uses' => 'ServicesController@shopFrontSigns']);
+//     Route::get('vehicle-graphics',         ['as' => 'services.vehicle-graphics',       'uses' => 'ServicesController@vehicleGraphics']);
+// });
 
 // Route::get( 'portfolio',                ['as' => 'portfolio',                       'uses' => 'HomeController@portfolio']);
 
@@ -101,19 +133,19 @@ get('rss', 'BlogController@rss');
 get('sitemap.xml', 'BlogController@siteMap');
 
 // Admin area
-get('admin', function () {
-    return redirect('/admin/post');
-});
-$router->group([
-    'namespace' => 'Admin',
-    'middleware' => 'auth',
-], function () {
-    resource('admin/post', 'PostController', ['except' => 'show']);
-    resource('admin/tag', 'TagController', ['except' => 'show']);
-    get('admin/upload', 'UploadController@index');
-    post('admin/upload/file', 'UploadController@uploadFile');
-    delete('admin/upload/file', 'UploadController@deleteFile');
-    post('admin/upload/folder', 'UploadController@createFolder');
-    delete('admin/upload/folder', 'UploadController@deleteFolder');
-});
+// get('admin', function () {
+//     return redirect('/admin/post');
+// });
+// $router->group([
+//     'namespace' => 'Admin',
+//     'middleware' => 'auth',
+// ], function () {
+//     resource('admin/post', 'PostController', ['except' => 'show']);
+//     resource('admin/tag', 'TagController', ['except' => 'show']);
+//     get('admin/upload', 'UploadController@index');
+//     post('admin/upload/file', 'UploadController@uploadFile');
+//     delete('admin/upload/file', 'UploadController@deleteFile');
+//     post('admin/upload/folder', 'UploadController@createFolder');
+//     delete('admin/upload/folder', 'UploadController@deleteFolder');
+// });
 

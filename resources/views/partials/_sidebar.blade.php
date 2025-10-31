@@ -1,122 +1,110 @@
-<div class="col-xl-4 col-lg-4">
-    <div class="tp-project__details-right-box">
-        <h5 class="tp-project__details-title-sm">
-            Products & Services
-        </h5>
-        <!-- <span>A web-based design tool to create</span> -->
-  
+<aside id=sidebar class="four columns offset-by-one">
         <ul>
-            <div class="tp-project__details-item d-flex align-items-center">
-          
-                <div class="tp-project__details-text" style="margin-bottom: 20px;">
-                    <span>
-                        <a href="{{ route('services.vehicle-graphics') }}">
-                            Vehicle Graphics
+            <h3>Products &#038; Services</h3>
+            <div
+                class=menu-posts-menu-container>
+                <ul
+                    id=menu-posts-menu class=menu>
+                    <li id=menu-item-202 class="menu-item menu-item-type-post_type menu-item-object-post menu-item-202">
+                        <a href="{!! route('services.social-media-adverts') !!}">
+                            Social Media Adverts
                         </a>
-                    </span>
-                </div>
-            </div>
-        
-            <div class="tp-project__details-item d-flex align-items-center">
-          
-                <div class="tp-project__details-text" style="margin-bottom: 20px;">
-                    <span>
-                        <a href="{{ route('services.shop-front-signs') }}">
-                            Shop Front Signs
+                    </li>
+                    <li id=menu-item-203 class="menu-item menu-item-type-post_type menu-item-object-post menu-item-203">
+                        <a href="{!! route('services.indoor-branding') !!}">
+                            Indoor Branding
                         </a>
-                    </span>
-                </div>
-            </div>
-
-            <div class="tp-project__details-item d-flex align-items-center">
-          
-                <div class="tp-project__details-text" style="margin-bottom: 20px;">
-                    <span>
-                        <a href="{{ route('services.industrial-signs') }}">
-                            Industrial Signs
+                    </li>
+                    <li id=menu-item-204 class="menu-item menu-item-type-post_type menu-item-object-post menu-item-204">
+                        <a href="{!! route('services.roll-up-banners') !!}">
+                            Roll up Banners
                         </a>
-                    </span>
-                </div>
-            </div>
-        
-            <div class="tp-project__details-item d-flex align-items-center">
-          
-                <div class="tp-project__details-text" style="margin-bottom: 20px;">
-                    <span>
-                        <a href="{{ route('services.interior-signs') }}">
-                            Interior Signs
+                    </li>
+                    <li id=menu-item-205 class="menu-item menu-item-type-post_type menu-item-object-post menu-item-205">
+                        <a href="{!! route('services.outdoor-branding') !!}">
+                            Outdoor Branding
                         </a>
-                    </span>
-                </div>
-            </div>
-
-            <div class="tp-project__details-item d-flex align-items-center">
-          
-                <div class="tp-project__details-text" style="margin-bottom: 20px;">
-                    <span>
-                        <a href="{{ route('services.letters-logos') }}">
-                            Letters and Logos
+                    </li>
+                    <li id=menu-item-380 class="menu-item menu-item-type-post_type menu-item-object-post menu-item-380">
+                        <a href="{!! route('services.smiley-living-spaces') !!}">
+                            Smiley Living Spaces
                         </a>
-                    </span>
-                </div>
-            </div>
-        
-            <div class="tp-project__details-item d-flex align-items-center">
-          
-                <div class="tp-project__details-text" style="margin-bottom: 20px;">
-                    <span>
-                        <a href="{{ route('services.point-of-sale') }}">
-                            Point of Sale
+                    </li>
+                    <li id=menu-item-206 class="menu-item menu-item-type-post_type menu-item-object-post menu-item-206">
+                        <a href="{!! route('services.logos') !!}">
+                            Logos
                         </a>
-                    </span>
-                </div>
-            </div>
-
-            <div class="tp-project__details-item d-flex align-items-center">
-          
-                <div class="tp-project__details-text" style="margin-bottom: 20px;">
-                    <span>
-                        <a href="{{ route('services.architectural-signs') }}">
-                            Architectural Signs
+                    </li>
+                    <li id=menu-item-207 class="menu-item menu-item-type-post_type menu-item-object-post menu-item-207">
+                        <a href="{!! route('services.promo-give-aways') !!}">
+                            Promo Give Aways
                         </a>
-                    </span>
-                </div>
-            </div>
-        
-            <div class="tp-project__details-item d-flex align-items-center">
-          
-                <div class="tp-project__details-text" style="margin-bottom: 20px;">
-                    <span>
-                        <a href="{{ route('services.exterior-signs') }}">
-                            Exterior Signs
+                    </li>
+                    <li id=menu-item-208 class="menu-item menu-item-type-post_type menu-item-object-post menu-item-208">
+                        <a href="{!! route('services.drinkwares') !!}">
+                            Drinkwares
                         </a>
-                    </span>
-                </div>
-            </div>
-
-            <div class="tp-project__details-item d-flex align-items-center">
-          
-                <div class="tp-project__details-text" style="margin-bottom: 20px;">
-                    <span>
-                        <a href="{{ route('services.business-stationary') }}">
-                            Business Stationary
+                    </li>
+                    <li id=menu-item-209 class="menu-item menu-item-type-post_type menu-item-object-post menu-item-209">
+                        <a href="{!! route('services.canvas-and-crafts') !!}">
+                            Canvas and Crafts
                         </a>
-                    </span>
-                </div>
-            </div>
-        
-            <div class="tp-project__details-item d-flex align-items-center">
-          
-                <div class="tp-project__details-text" style="margin-bottom: 20px;">
-                    <span>
-                        <a href="{{ route('services.internal-decoration') }}">
-                            Internal Decoration
+                    </li>
+                    <li id=menu-item-210 class="menu-item menu-item-type-post_type menu-item-object-post menu-item-210">
+                        <a href="{!! route('services.desk-and-accessories') !!}">
+                            Desk and Accessories
                         </a>
-                    </span>
-                </div>
+                    </li>
+                    <li id=menu-item-208 class="menu-item menu-item-type-post_type menu-item-object-post menu-item-208">
+                        <a href="{!! route('services.apparels-and-textiles') !!}">
+                            Apparels and Textiles
+                        </a>
+                    </li>
+                    <li id=menu-item-209 class="menu-item menu-item-type-post_type menu-item-object-post menu-item-209">
+                        <a href="{!! route('services.custom-branded-merchandise') !!}">
+                            Custom Branded Merchandise
+                        </a>
+                    </li>
+                    <li id=menu-item-210 class="menu-item menu-item-type-post_type menu-item-object-post menu-item-210">
+                        <a href="{!! route('services.health-and-safety') !!}">
+                            Health and Safety
+                        </a>
+                    </li>
+                </ul>
             </div>
-    
+            <h3>General</h3>
+            <ul>
+                <li class="page_item page-item-37">
+                    <a href="{!! route('home') !!}" >Home
+                    </a>
+                </li>
+                <li class="page_item page-item-39 current_page_item">
+                    <a href="{!! route('about') !!}" aria-current=page>Who We Are
+                    </a>
+                </li>
+                
+                <!-- <li class="page_item page-item-87">
+                    <a href="index.html%3Fp=87.html">Cookie Policy
+                    </a>
+                </li>
+                <li class="page_item page-item-33">
+                    <a href="index.html">Home
+                    </a>
+                </li> -->
+                <li class="page_item page-item-35">
+                    <a href="{!! route('services.index') !!}" >Services
+                    </a>
+                </li>
+                <li class="page_item page-item-41">
+                    <a href="{!! route('testimonials') !!}" >Testimonials
+                    </a>
+                </li>
+                <li class="page_item page-item-43">
+                    <a href="{!! route('contacts') !!}" >Contact Arrow Head Design & Print
+                    </a>
+                </li>
+            </ul>
         </ul>
-        <a class="tp-btn-purple w-100" href="{{ route('contacts') }}">Need a service?</a>
-    </div>
-</div>
+        <img
+            data-src=https://www.signs-print.com/wp-content/themes/signs-print/images/layout/mactac-awards.jpg alt="mactac awards logo" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" class=lazyload style="--smush-placeholder-width: 189px; --smush-placeholder-aspect-ratio: 189/111;">
+    </aside>

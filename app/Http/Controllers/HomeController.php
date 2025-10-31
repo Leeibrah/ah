@@ -49,6 +49,14 @@ class HomeController extends Controller
         return view('pages.gallery', compact('page_title', 'page_description'));
     }
 
+    public function testimonial(){
+
+        $page_title = 'Testimonial Page';
+        $page_description = "This is the testimonial us page";
+
+        return view('pages.testimonial', compact('page_title', 'page_description'));
+    }
+
     public function contacts(){
 
         $page_title = 'Contact Us';

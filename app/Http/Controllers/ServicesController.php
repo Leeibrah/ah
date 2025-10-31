@@ -17,8 +17,15 @@ class ServicesController extends Controller
 
         $page_title = 'Services';
         $page_description = "This is the Services page";
+
+        $service_tag = 'Services';
+        $service_description = '';
+
+        $service_banner_image = '/wp-content/uploads/2013/11/business-stationery-printing-page-header.jpg';
         
-        return view('index', compact('page_title', 'page_description'));
+        return view('pages.services.index', compact(
+            'page_title', 'page_description', 'service_tag', 'service_description', 'service_banner_image'
+        ));
     }
 
     public function socialMediaAdverts(){

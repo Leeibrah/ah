@@ -14,13 +14,6 @@
 				{{ $service_tag }}
 			</h2>
 			
-			<p>
-                Arrowhead, we are a ONE-STOP PRINTSHOP committed towards offering custom branding solutions from design concepts through production to the final branded media.
-                <br>
-                May it be a Logo, Flyers, Brochures, Posters, billboards, 3D signs images content for social media we are up for the task.
-                <br>
-                We guarantee to deliver customized advertisement media that will reflects your brand identity to connect with your target audience.
-            </p>
 
 			<div
 				class="ngg-galleryoverview default-view

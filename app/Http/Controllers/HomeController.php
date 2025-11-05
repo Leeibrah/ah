@@ -38,12 +38,15 @@ class HomeController extends Controller
         $page_title = 'Who We Are';
         $page_description = "This is the about us page";
 
-        $about_tag = 'Who We Are';
-        $about_description = 'We are one stop shop offering you creative design customized to reflect your brand identity.';
+        $service_tag = 'Who We Are';
+        $service_description = 'We are one stop shop offering you creative design customized to reflect your brand identity.';
 
-        $about_banner_image = '/wp-content/uploads/2013/11/business-stationery-printing-page-header.jpg';
+        // $about_banner_image = '/wp-content/uploads/2013/11/business-stationery-printing-page-header.jpg';
+        $service_banner_image = '/headers/social-media-adverts.png';
 
-        return view('pages.about', compact('page_title', 'page_description', 'about_tag', 'about_description'));
+        return view('pages.about', 
+            compact('page_title', 'page_description', 'service_tag', 'service_description', 'service_banner_image')
+        );
     }
 
     public function gallery(){

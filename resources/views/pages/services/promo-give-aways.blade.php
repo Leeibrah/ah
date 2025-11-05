@@ -20,48 +20,105 @@
                 They serve as marketing tools that leave a lasting impression on customers and help strengthen brand recognition.
             </p>
 
-			<div
-				class="ngg-galleryoverview default-view
-				ngg-ajax-pagination-none	"
-				id=ngg-gallery-b2cb6e9aeab9d9b3bc36617b41a4c4b0-1>
-				<div
-					id=ngg-image-0 class="ngg-gallery-thumbnail-box
-					"
-					>
-					<div
-						class=ngg-gallery-thumbnail>
-						<a
-							href="../wp-content/gallery/business-stationery/printing01.jpg"
-							title=" "
-							data-src=https://www.signs-print.com/wp-content/gallery/business-stationery/printing01.jpg
-							data-thumbnail=https://www.signs-print.com/wp-content/gallery/business-stationery/thumbs/thumbs_printing01.jpg
-							data-image-id=56
-							data-title=printing01
-							data-description=" "
-							data-image-slug=printing01
-							class=nextgen_pro_lightbox data-nplmodal-gallery-id=b2cb6e9aeab9d9b3bc36617b41a4c4b0>
-						<img
-							title=printing01
-							alt=printing01
-							data-src=https://www.signs-print.com/wp-content/gallery/business-stationery/thumbs/thumbs_printing01.jpg
-							width=190
-							height=143
-							style="--smush-placeholder-width: 190px; --smush-placeholder-aspect-ratio: 190/143;max-width:100%;"
-							src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" class=lazyload>
-						</a>
-					</div>
-				</div>
-				<br
-					style="clear: both">
-				<!-- <div
-					class=slideshowlink>
-					<a
-						href="nggallery/slideshow.html">[Show slideshow]
-					</a>
-				</div> -->
-				<div
-					class=ngg-clear></div>
-			</div>
+			<div class="gallery-container">
+
+              <div class="gallery-grid">
+                
+                <div class="gallery-item"><img src="/img/image003.jpg" alt="Gallery Image"></div>
+                <div class="gallery-item"><img src="/img/image004.jpg" alt="Gallery Image"></div>
+                <div class="gallery-item"><img src="/img/image005.jpg" alt="Gallery Image"></div>
+                <div class="gallery-item"><img src="/img/image006.jpg" alt="Gallery Image"></div>
+                
+                <div class="gallery-item"><img src="/img/image008.jpg" alt="Gallery Image"></div>
+
+                <div class="gallery-item"><img src="/img/image009.jpg" alt="Gallery Image"></div>
+                
+                <div class="gallery-item"><img src="/img/image011.jpg" alt="Gallery Image"></div>
+                
+                <div class="gallery-item"><img src="/img/image013.jpg" alt="Gallery Image"></div>
+                <div class="gallery-item"><img src="/img/image014.jpg" alt="Gallery Image"></div>
+                <div class="gallery-item"><img src="/img/image015.jpg" alt="Gallery Image"></div>
+                <div class="gallery-item"><img src="/img/image016.jpg" alt="Gallery Image"></div>
+
+                
+                <div class="gallery-item"><img src="/img/image018.jpg" alt="Gallery Image"></div>
+                <div class="gallery-item"><img src="/img/image019.jpg" alt="Gallery Image"></div>
+                <div class="gallery-item"><img src="/img/image020.jpg" alt="Gallery Image"></div>
+                <div class="gallery-item"><img src="/img/image021.jpg" alt="Gallery Image"></div>
+                <div class="gallery-item"><img src="/img/image023.jpg" alt="Gallery Image"></div>
+                <div class="gallery-item"><img src="/img/image024.jpg" alt="Gallery Image"></div>
+
+                <div class="gallery-item"><img src="/img/image025.jpg" alt="Gallery Image"></div>
+                <div class="gallery-item"><img src="/img/image026.jpg" alt="Gallery Image"></div>
+                <div class="gallery-item"><img src="/img/image027.jpg" alt="Gallery Image"></div>
+                <div class="gallery-item"><img src="/img/image028.jpg" alt="Gallery Image"></div>
+                <div class="gallery-item"><img src="/img/image029.jpg" alt="Gallery Image"></div>
+                
+                <div class="gallery-item"><img src="/img/image032.jpg" alt="Gallery Image"></div>
+
+                <div class="gallery-item"><img src="/img/image033.jpg" alt="Gallery Image"></div>
+                <div class="gallery-item"><img src="/img/image034.jpg" alt="Gallery Image"></div>
+                <div class="gallery-item"><img src="/img/image035.jpg" alt="Gallery Image"></div>
+                
+
+                
+                <div class="gallery-item"><img src="/img/image045.jpg" alt="Gallery Image"></div>
+                <div class="gallery-item"><img src="/img/image052.jpg" alt="Gallery Image"></div>
+                
+                <div class="gallery-item"><img src="/img/image047.jpg" alt="Gallery Image"></div>
+                <div class="gallery-item"><img src="/img/image048.jpg" alt="Gallery Image"></div>
+
+                
+                <div class="gallery-item"><img src="/img/image050.jpg" alt="Gallery Image"></div>
+                <div class="gallery-item"><img src="/img/image051.jpg" alt="Gallery Image"></div>
+                
+                <div class="gallery-item"><img src="/img/image053.jpg" alt="Gallery Image"></div>
+                <div class="gallery-item"><img src="/img/image054.jpg" alt="Gallery Image"></div>
+                <div class="gallery-item"><img src="/img/image055.jpg" alt="Gallery Image"></div>
+                <div class="gallery-item"><img src="/img/image056.jpg" alt="Gallery Image"></div>
+
+                <div class="gallery-item"><img src="/img/image058.jpg" alt="Gallery Image"></div>
+
+                
+                <div class="gallery-item"><img src="/img/image001.jpg" alt="Gallery Image"></div>
+                <div class="gallery-item"><img src="/img/image043.jpg" alt="Gallery Image"></div>
+                <div class="gallery-item"><img src="/img/image039.jpg" alt="Gallery Image"></div>
+                
+
+                
+                <div class="gallery-item"><img src="/img/image036.jpg" alt="Gallery Image"></div>
+                <div class="gallery-item"><img src="/img/image037.jpg" alt="Gallery Image"></div>
+                
+                <!-- Long images -->
+                
+                <div class="gallery-item"><img src="/img/image040.jpg" alt="Gallery Image"></div>
+
+                <div class="gallery-item"><img src="/img/image041.jpg" alt="Gallery Image"></div>
+                <div class="gallery-item"><img src="/img/image042.jpg" alt="Gallery Image"></div>
+                
+                <div class="gallery-item"><img src="/img/image044.jpg" alt="Gallery Image"></div>
+
+                <div class="gallery-item"><img src="/img/image046.jpg" alt="Gallery Image"></div>
+                <div class="gallery-item"><img src="/img/image049.jpg" alt="Gallery Image"></div>
+
+                <div class="gallery-item"><img src="/img/image002.jpg" alt="Gallery Image"></div>
+                <div class="gallery-item"><img src="/img/image007.jpg" alt="Gallery Image"></div>
+                <div class="gallery-item"><img src="/img/image010.jpg" alt="Gallery Image"></div>
+                <div class="gallery-item"><img src="/img/image012.jpg" alt="Gallery Image"></div>
+                <div class="gallery-item"><img src="/img/image017.jpg" alt="Gallery Image"></div>
+                <div class="gallery-item"><img src="/img/image030.jpg" alt="Gallery Image"></div>
+                <div class="gallery-item"><img src="/img/image031.jpg" alt="Gallery Image"></div>
+                <div class="gallery-item"><img src="/img/image038.jpg" alt="Gallery Image"></div>
+              </div>
+            </div>
+
+            <!-- Lightbox Modal -->
+            <div class="lightbox" id="lightbox">
+              <span class="close" id="lightboxClose">&times;</span>
+              <button class="prev" id="prevBtn">&#10094;</button>
+              <img id="lightboxImg" src="" alt="Expanded Image">
+              <button class="next" id="nextBtn">&#10095;</button>
+            </div>
 		</article>
 
 		@include('partials._sidebar')

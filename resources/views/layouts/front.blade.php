@@ -25,10 +25,10 @@
                         <img 
                             width="1920" 
                             height="581" 
-                            data-src="/headers/drinkwares.png" 
+                            data-src="/headers/drinkwares.jpg" 
                             class="attachment-original size-original wp-post-image lazyload" alt 
                             decoding="async" 
-                            data-srcset="/headers/drinkwares.png 1920w, /headers/drinkwares.png 768w" 
+                            data-srcset="/headers/drinkwares.jpg 1920w, /headers/drinkwares.jpg 768w" 
                             data-sizes="(max-width: 1920px) 100vw, 1920px" 
                             src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" 
                             style="--smush-placeholder-width: 1920px; --smush-placeholder-aspect-ratio: 1920/581;">
@@ -42,10 +42,10 @@
                         <img 
                             width="1600" 
                             height="572" 
-                            data-src="/headers/custom-made.png" 
+                            data-src="/headers/custom-made.jpg" 
                             class="attachment-original size-original wp-post-image lazyload" alt 
                             decoding="async" 
-                            data-srcset="/headers/custom-made.png 1600w, /headers/custom-made.png 768w" 
+                            data-srcset="/headers/custom-made.jpg 1600w, /headers/custom-made.jpg 768w" 
                             data-sizes="(max-width: 1600px) 100vw, 1600px" 
                             src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" 
                             style="--smush-placeholder-width: 1600px; --smush-placeholder-aspect-ratio: 1600/572;">
@@ -59,11 +59,11 @@
                         <img 
                             width="1600" 
                             height="568" 
-                            data-src="/headers/indoor-branding.png" 
+                            data-src="/headers/indoor-branding.jpg" 
                             class="attachment-original size-original wp-post-image lazyload" 
                             alt="interior sign on wall inside a restaurant" 
                             decoding="async" 
-                            data-srcset="/headers/indoor-branding.png 1600w, /headers/indoor-branding.png 768w" 
+                            data-srcset="/headers/indoor-branding.jpg 1600w, /headers/indoor-branding.jpg 768w" 
                             data-sizes="(max-width: 1600px) 100vw, 1600px" 
                             src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" 
                             style="--smush-placeholder-width: 1600px; --smush-placeholder-aspect-ratio: 1600/568;">
@@ -77,10 +77,10 @@
                         <img 
                             width="1600" 
                             height="559" 
-                            data-src="/headers/health-and-safety.png" 
+                            data-src="/headers/health-and-safety.jpg" 
                             class="attachment-original size-original wp-post-image lazyload" alt 
                             decoding="async" 
-                            data-srcset="/headers/health-and-safety.png 1600w, /headers/health-and-safety.png 768w" 
+                            data-srcset="/headers/health-and-safety.jpg 1600w, /headers/health-and-safety.jpg 768w" 
                             data-sizes="(max-width: 1600px) 100vw, 1600px" 
                             src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" 
                             style="--smush-placeholder-width: 1600px; --smush-placeholder-aspect-ratio: 1600/559;">
@@ -94,11 +94,11 @@
                         <img 
                             width="1600" 
                             height="568" 
-                            data-src="/headers/roll-up-banners.png" 
+                            data-src="/headers/roll-up-banners.jpg" 
                             class="attachment-original size-original wp-post-image lazyload" 
                             alt="large format printing wrap around three internal walls" 
                             decoding="async" 
-                            data-srcset="/headers/roll-up-banners.png 1600w, /headers/roll-up-banners.png 768w" 
+                            data-srcset="/headers/roll-up-banners.jpg 1600w, /headers/roll-up-banners.jpg 768w" 
                             data-sizes="(max-width: 1600px) 100vw, 1600px" 
                             src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" 
                             style="--smush-placeholder-width: 1600px; --smush-placeholder-aspect-ratio: 1600/568;">

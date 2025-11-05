@@ -22,33 +22,90 @@
             <div id="slideshow">
                 <div id="slides">
                     <section class="carousel_fluid_fix">
-                        <img width="1920" height="581" data-src="https://www.signs-print.com/wp-content/uploads/2013/11/klm-hair-heanor.jpg" class="attachment-original size-original wp-post-image lazyload" alt decoding="async" data-srcset="https://www.signs-print.com/wp-content/uploads/2013/11/klm-hair-heanor.jpg 1920w, https://www.signs-print.com/wp-content/uploads/2013/11/klm-hair-heanor-768x232.jpg 768w" data-sizes="(max-width: 1920px) 100vw, 1920px" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" style="--smush-placeholder-width: 1920px; --smush-placeholder-aspect-ratio: 1920/581;">
-                        <h1>Shop Front Signs</h1>
-                        <p>The most eye-catching fascia signs around, our 20 years of experience and products knowledge lets us pick the right product for you.</p>
+                        <img 
+                            width="1920" 
+                            height="581" 
+                            data-src="/headers/drinkwares.png" 
+                            class="attachment-original size-original wp-post-image lazyload" alt 
+                            decoding="async" 
+                            data-srcset="/headers/drinkwares.png 1920w, /headers/drinkwares.png 768w" 
+                            data-sizes="(max-width: 1920px) 100vw, 1920px" 
+                            src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" 
+                            style="--smush-placeholder-width: 1920px; --smush-placeholder-aspect-ratio: 1920/581;">
+                        <h1>Drinkwares</h1>
+                        <p>
+                            Drinkware design and decoration is the art of designing and branding cups, bottles, or mugs to make them more attractive, personalized, or promotional.
+                        </p>
                     </section>
                     
                     <section class="carousel_fluid_fix">
-                        <img width="1600" height="572" data-src="https://www.signs-print.com/wp-content/uploads/2013/11/P3Citroen-wraps.jpg" class="attachment-original size-original wp-post-image lazyload" alt decoding="async" data-srcset="https://www.signs-print.com/wp-content/uploads/2013/11/P3Citroen-wraps.jpg 1600w, https://www.signs-print.com/wp-content/uploads/2013/11/P3Citroen-wraps-768x275.jpg 768w" data-sizes="(max-width: 1600px) 100vw, 1600px" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" style="--smush-placeholder-width: 1600px; --smush-placeholder-aspect-ratio: 1600/572;">
+                        <img 
+                            width="1600" 
+                            height="572" 
+                            data-src="/headers/custom-made.png" 
+                            class="attachment-original size-original wp-post-image lazyload" alt 
+                            decoding="async" 
+                            data-srcset="/headers/custom-made.png 1600w, /headers/custom-made.png 768w" 
+                            data-sizes="(max-width: 1600px) 100vw, 1600px" 
+                            src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" 
+                            style="--smush-placeholder-width: 1600px; --smush-placeholder-aspect-ratio: 1600/572;">
                         <h1>Vehicle Graphics &#038; Wraps</h1>
-                        <p>We provide vehicle liveries for all sizes of vans, lorries, curtain sided vehicles and buses and have a full range of commercial vehicles on file.</p>
+                        <p>
+                            We provide vehicle liveries for all sizes of vans, lorries, curtain sided vehicles and buses and have a full range of commercial vehicles on file.
+                        </p>
                     </section>
                     
                     <section class="carousel_fluid_fix">
-                        <img width="1600" height="568" data-src="https://www.signs-print.com/wp-content/uploads/2013/11/interior-signs-banner.jpg" class="attachment-original size-original wp-post-image lazyload" alt="interior sign on wall inside a restaurant" decoding="async" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" style="--smush-placeholder-width: 1600px; --smush-placeholder-aspect-ratio: 1600/568;">
-                        <h1>Interior Signs</h1>
-                        <p>Always using the best materials ensures our customers that any vehicle livery or sign system will stand the test of time.</p>
+                        <img 
+                            width="1600" 
+                            height="568" 
+                            data-src="/headers/indoor-branding.png" 
+                            class="attachment-original size-original wp-post-image lazyload" 
+                            alt="interior sign on wall inside a restaurant" 
+                            decoding="async" 
+                            data-srcset="/headers/indoor-branding.png 1600w, /headers/indoor-branding.png 768w" 
+                            data-sizes="(max-width: 1600px) 100vw, 1600px" 
+                            src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" 
+                            style="--smush-placeholder-width: 1600px; --smush-placeholder-aspect-ratio: 1600/568;">
+                        <h1>Indoor Branding</h1>
+                        <p>
+                            Outstanding manufacture and installation giving longevity to enhance your Company image inside and out.
+                        </p>
                     </section>
                     
                     <section class="carousel_fluid_fix">
-                        <img width="1600" height="559" data-src="https://www.signs-print.com/wp-content/uploads/2013/11/robeys-letters-belper.jpg" class="attachment-original size-original wp-post-image lazyload" alt decoding="async" data-srcset="https://www.signs-print.com/wp-content/uploads/2013/11/robeys-letters-belper.jpg 1600w, https://www.signs-print.com/wp-content/uploads/2013/11/robeys-letters-belper-768x268.jpg 768w" data-sizes="(max-width: 1600px) 100vw, 1600px" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" style="--smush-placeholder-width: 1600px; --smush-placeholder-aspect-ratio: 1600/559;">
-                        <h1>Retail &#038; Commercial Signs</h1>
-                        <p>The most eyecatching fascia signs around, our 20 years of experience and products knowledge lets us pick the right product for you.</p>
+                        <img 
+                            width="1600" 
+                            height="559" 
+                            data-src="/headers/health-and-safety.png" 
+                            class="attachment-original size-original wp-post-image lazyload" alt 
+                            decoding="async" 
+                            data-srcset="/headers/health-and-safety.png 1600w, /headers/health-and-safety.png 768w" 
+                            data-sizes="(max-width: 1600px) 100vw, 1600px" 
+                            src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" 
+                            style="--smush-placeholder-width: 1600px; --smush-placeholder-aspect-ratio: 1600/559;">
+                        <h1>Health and Safety</h1>
+                        <p>
+                            Health and safety signs is an essential part of complying with health and safety legislation as well as maintaining neatness and order around your workplace/premises.
+                        </p>
                     </section>
                     
                     <section class="carousel_fluid_fix">
-                        <img width="1600" height="568" data-src="https://www.signs-print.com/wp-content/uploads/2013/11/large-format-printing-banner.jpg" class="attachment-original size-original wp-post-image lazyload" alt="large format printing wrap around three internal walls" decoding="async" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" style="--smush-placeholder-width: 1600px; --smush-placeholder-aspect-ratio: 1600/568;">
-                        <h1>Internal Decoration</h1>
-                        <p>High specification and quality materials, all expertly fitted. Create the best look for your business inside and out.</p>
+                        <img 
+                            width="1600" 
+                            height="568" 
+                            data-src="/headers/roll-up-banners.png" 
+                            class="attachment-original size-original wp-post-image lazyload" 
+                            alt="large format printing wrap around three internal walls" 
+                            decoding="async" 
+                            data-srcset="/headers/roll-up-banners.png 1600w, /headers/roll-up-banners.png 768w" 
+                            data-sizes="(max-width: 1600px) 100vw, 1600px" 
+                            src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" 
+                            style="--smush-placeholder-width: 1600px; --smush-placeholder-aspect-ratio: 1600/568;">
+                        <h1>Roll Up Banners</h1>
+                        <p>
+                            Roll-up banners are portable, vertical display stands used for advertising, branding, and presentations at events, shops, offices, or exhibitions.
+                        </p>
                     </section>
                 </div>
                 

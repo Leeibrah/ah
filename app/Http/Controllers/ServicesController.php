@@ -19,9 +19,9 @@ class ServicesController extends Controller
         $page_description = "This is the Services page";
 
         $service_tag = 'Services';
-        $service_description = '';
+        $service_description = 'All Services for Arrow Head Design & Printshop.';
 
-        $service_banner_image = '/headers/picture.png';
+        $service_banner_image = '/headers/roll-up-banners.png';
         
         return view('pages.services.index', compact(
             'page_title', 'page_description', 'service_tag', 'service_description', 'service_banner_image'

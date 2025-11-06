@@ -198,43 +198,33 @@
         
         <div class="one-third column">
             <section id="footer-widget">
-                <div class="hslice" id="ngg-webslice">
-                    <h4 class="entry-title widget-title">Recent Project Images</h4>
-                    <div class="ngg-widget entry-content">
-                        <a href="wp-content/gallery/large-format-printing/IMG_1394.jpg" title=" " data-image-id="616" class="nextgen_pro_lightbox" data-nplmodal-gallery-id="b85bc709778666d8bed36c76b0a5a021">
-                            <img title="IMG_1394" alt="IMG_1394" data-src="https://www.signs-print.com/wp-content/gallery/large-format-printing/thumbs/thumbs_IMG_1394.jpg" width="100" height="75" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" class="lazyload" style="--smush-placeholder-width: 100px; --smush-placeholder-aspect-ratio: 100/75;">
+                <div class="hslice" id="social-widget">
+                    <h4 class="entry-title widget-title">Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/arrowheadprintshop" target="_blank" class="social-icon facebook">
+                            <i class="fa fa-facebook"></i>
+                            Arrowhead Design & Printshop 
                         </a>
-                        
-                        <a href="wp-content/gallery/large-format-printing/IMG_1393.jpg" title=" " data-image-id="614" class="nextgen_pro_lightbox" data-nplmodal-gallery-id="b85bc709778666d8bed36c76b0a5a021">
-                            <img title="IMG_1393" alt="IMG_1393" data-src="https://www.signs-print.com/wp-content/gallery/large-format-printing/thumbs/thumbs_IMG_1393.jpg" width="100" height="75" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" class="lazyload" style="--smush-placeholder-width: 100px; --smush-placeholder-aspect-ratio: 100/75;">
+                        <a href="https://www.instagram.com" target="_blank" class="social-icon instagram">
+                            <i class="fa fa-instagram"></i>
+                            Arrowhead Design & Printshop 
                         </a>
-                        
-                        <a href="wp-content/gallery/large-format-printing/IMG_1392.jpg" title=" " data-image-id="615" class="nextgen_pro_lightbox" data-nplmodal-gallery-id="b85bc709778666d8bed36c76b0a5a021">
-                            <img title="IMG_1392" alt="IMG_1392" data-src="https://www.signs-print.com/wp-content/gallery/large-format-printing/thumbs/thumbs_IMG_1392.jpg" width="100" height="75" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" class="lazyload" style="--smush-placeholder-width: 100px; --smush-placeholder-aspect-ratio: 100/75;">
+                        <a href="https://twitter.com" target="_blank" class="social-icon twitter">
+                            <i class="fa fa-twitter"></i>
+                            Arrowhead Design & Printshop 
                         </a>
-                        
-                        <a href="wp-content/gallery/large-format-printing/IMG_1391.jpg" title=" " data-image-id="613" class="nextgen_pro_lightbox" data-nplmodal-gallery-id="b85bc709778666d8bed36c76b0a5a021">
-                            <img title="IMG_1391" alt="IMG_1391" data-src="https://www.signs-print.com/wp-content/gallery/large-format-printing/thumbs/thumbs_IMG_1391.jpg" width="100" height="75" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" class="lazyload" style="--smush-placeholder-width: 100px; --smush-placeholder-aspect-ratio: 100/75;">
+                        <a href="https://www.linkedin.com" target="_blank" class="social-icon linkedin">
+                            <i class="fa fa-linkedin"></i>
+                            Arrowhead Design & Printshop 
                         </a>
-                        
-                        <a href="wp-content/gallery/large-format-printing/IMG_1388.jpg" title=" " data-image-id="612" class="nextgen_pro_lightbox" data-nplmodal-gallery-id="b85bc709778666d8bed36c76b0a5a021">
-                            <img title="IMG_1388" alt="IMG_1388" data-src="https://www.signs-print.com/wp-content/gallery/large-format-printing/thumbs/thumbs_IMG_1388.jpg" width="100" height="75" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" class="lazyload" style="--smush-placeholder-width: 100px; --smush-placeholder-aspect-ratio: 100/75;">
-                        </a>
-                        
-                        <a href="wp-content/gallery/vehicle-graphics-misc/476ff5ac-c9bf-43bf-a058-15cdb573db55.jpg" title=" " data-image-id="601" class="nextgen_pro_lightbox" data-nplmodal-gallery-id="b85bc709778666d8bed36c76b0a5a021">
-                            <img title="476ff5ac-c9bf-43bf-a058-15cdb573db55" alt="476ff5ac-c9bf-43bf-a058-15cdb573db55" data-src="https://www.signs-print.com/wp-content/gallery/vehicle-graphics-misc/thumbs/thumbs_476ff5ac-c9bf-43bf-a058-15cdb573db55.jpg" width="100" height="75" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" class="lazyload" style="--smush-placeholder-width: 100px; --smush-placeholder-aspect-ratio: 100/75;">
-                        </a>
-                        
-                        <a href="wp-content/gallery/shop-front-signs/a21ade35-ef44-4021-834c-3fb57ba79ec8.jpg" title=" " data-image-id="544" class="nextgen_pro_lightbox" data-nplmodal-gallery-id="b85bc709778666d8bed36c76b0a5a021">
-                            <img title="a21ade35-ef44-4021-834c-3fb57ba79ec8" alt="a21ade35-ef44-4021-834c-3fb57ba79ec8" data-src="https://www.signs-print.com/wp-content/gallery/shop-front-signs/thumbs/thumbs_a21ade35-ef44-4021-834c-3fb57ba79ec8.jpg" width="100" height="75" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" class="lazyload" style="--smush-placeholder-width: 100px; --smush-placeholder-aspect-ratio: 100/75;">
-                        </a>
-                        
-                        <a href="wp-content/gallery/shop-front-signs/15a67ebb-6484-4f7f-a9bb-f669e741a4a7.jpg" title=" " data-image-id="545" class="nextgen_pro_lightbox" data-nplmodal-gallery-id="b85bc709778666d8bed36c76b0a5a021">
-                            <img title="15a67ebb-6484-4f7f-a9bb-f669e741a4a7" alt="15a67ebb-6484-4f7f-a9bb-f669e741a4a7" data-src="https://www.signs-print.com/wp-content/gallery/shop-front-signs/thumbs/thumbs_15a67ebb-6484-4f7f-a9bb-f669e741a4a7.jpg" width="100" height="75" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" class="lazyload" style="--smush-placeholder-width: 100px; --smush-placeholder-aspect-ratio: 100/75;">
+                        <a href="https://www.youtube.com" target="_blank" class="social-icon youtube">
+                            <i class="fa fa-youtube"></i>
+                            Arrowhead Design & Printshop 
                         </a>
                     </div>
                 </div>
             </section>
         </div>
+
     </div>
 </section>

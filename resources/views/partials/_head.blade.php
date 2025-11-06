@@ -239,6 +239,9 @@
         
         <!-- WordPress Styles -->
         <link rel="stylesheet" id="wp-block-library-css" href="https://www.signs-print.com/wp-includes/css/dist/block-library/style.min.css?ver=45719f136b7b39f5e6464bf3e39d7ea2" type="text/css" media="all">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
         
         <style id="classic-theme-styles-inline-css">
             /*! This file is auto-generated */

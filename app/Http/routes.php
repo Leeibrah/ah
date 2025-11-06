@@ -13,7 +13,7 @@ Route::get( 'gallery',  ['as' => 'gallery',   'uses' => 'HomeController@gallery'
 
 Route::group(['prefix' => 'services'], function() {
 
-    Route::get('index',                     ['as' => 'services.index',                  'uses' => 'ServicesController@index']);
+    Route::get('/',                     ['as' => 'services.index',                  'uses' => 'ServicesController@index']);
     Route::get('social-media-adverts', ['as' => 'services.social-media-adverts',       'uses' => 'ServicesController@socialMediaAdverts']);
     Route::get('indoor-branding', ['as' => 'services.indoor-branding',       'uses' => 'ServicesController@indoorBranding']);
     Route::get('outdoor-branding', ['as' => 'services.outdoor-branding',       'uses' => 'ServicesController@outdoorBranding']);

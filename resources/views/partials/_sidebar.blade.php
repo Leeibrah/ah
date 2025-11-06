@@ -75,7 +75,7 @@
             <h3>General</h3>
             <ul>
                 <li class="page_item page-item-37">
-                    <a href="{!! route('home') !!}" >Home
+                    <a href="/" >Home
                     </a>
                 </li>
                 <li class="page_item page-item-39 current_page_item">
@@ -95,10 +95,10 @@
                     <a href="{!! route('services.index') !!}" >Services
                     </a>
                 </li>
-                <li class="page_item page-item-41">
+                <!-- <li class="page_item page-item-41">
                     <a href="{!! route('testimonials') !!}" >Testimonials
                     </a>
-                </li>
+                </li> -->
                 <li class="page_item page-item-43">
                     <a href="{!! route('contacts') !!}" >Contact Us
                     </a>

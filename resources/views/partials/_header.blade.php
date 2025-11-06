@@ -9,7 +9,7 @@
                 <div class="menu-main-menu-container">
                     <ul id="menu-main-menu" class="menu">
                         <li id="menu-item-70" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-33 current_page_item menu-item-70">
-                            <a href="{!! route('home') !!}" aria-current="page">Home</a>
+                            <a href="/" aria-current="page">Home</a>
                         </li>
                         <li id="menu-item-73" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-73">
                             <a href="/about">Who We Are</a>
@@ -100,11 +100,11 @@
                             </ul>
                         </li> -->
                         
-                        <li id="menu-item-72" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-72">
+                        <!-- <li id="menu-item-72" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-72">
                             <a href="#">Testimonials</a>
-                        </li>
+                        </li> -->
                         <li id="menu-item-69" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-69">
-                            <a href="#">Contact Us</a>
+                            <a href="{!! route('contacts') !!}">Contact Us</a>
                         </li>
                     </ul>
                 </div>

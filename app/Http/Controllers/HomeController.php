@@ -70,7 +70,15 @@ class HomeController extends Controller
         $page_title = 'Contact Us';
         $page_description = "This is the contact us page";
 
-        return view('pages.contacts', compact('page_title', 'page_description'));
+        $page_tag = 'Contact Us';
+        $page_description = 'We are one stop shop offering you creative design customized to reflect your brand identity.';
+
+        // $about_banner_image = '/wp-content/uploads/2013/11/business-stationery-printing-page-header.jpg';
+        $page_banner_image = '/headers/social-media-adverts.png';
+
+        return view('pages.contacts', 
+            compact('page_title', 'page_description', 'page_tag', 'page_description', 'page_banner_image')
+        );
     }
 
     public function postContacts(Request $request)
@@ -117,11 +125,11 @@ class HomeController extends Controller
             });
             
             // return redirect(route('success'));
-            return view('contact', compact('page_title', 'page_description', 'message'));
+            return view('contacts', compact('page_title', 'page_description', 'message'));
 
         }else{
             // return view('pages.notification', ['message' => 'Error: Please go back and fill in the correct answer to the captcha question. Thank You.']);
-            return redirect(route('contact'))->with('message', 'Message not send.  ');
+            return redirect(route('contacts'))->with('message', 'Message not send.  ');
 
             // return view('contact', compact('page_title', 'page_description', 'message'));
         }

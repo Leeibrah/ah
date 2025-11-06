@@ -2264,3 +2264,22 @@ footer a:hover, footer span a:hover {
 .grecaptcha-badge {
     visibility: hidden!important
 }
+
+.social-icons {
+    display: flex;
+    flex-direction: column; /* Descending order vertically */
+    gap: 10px;
+    margin-top: 10px;
+    padding: 10%;
+}
+
+.social-icon {
+    text-decoration: none;
+    color: #555;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+    color: #f0b400; /* gold accent */
+}

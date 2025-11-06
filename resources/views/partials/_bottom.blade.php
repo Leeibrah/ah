@@ -205,22 +205,27 @@
                             <i class="fa fa-facebook"></i>
                             Arrowhead Design & Printshop 
                         </a>
+                        <br/>
                         <a href="https://www.instagram.com" target="_blank" class="social-icon instagram">
                             <i class="fa fa-instagram"></i>
                             Arrowhead Design & Printshop 
                         </a>
+                        <br/>
                         <a href="https://twitter.com" target="_blank" class="social-icon twitter">
                             <i class="fa fa-twitter"></i>
                             Arrowhead Design & Printshop 
                         </a>
+                        <br/>
                         <a href="https://www.linkedin.com" target="_blank" class="social-icon linkedin">
                             <i class="fa fa-linkedin"></i>
                             Arrowhead Design & Printshop 
                         </a>
+                        <br/>
                         <a href="https://www.youtube.com" target="_blank" class="social-icon youtube">
                             <i class="fa fa-youtube"></i>
                             Arrowhead Design & Printshop 
                         </a>
+                        <br/>
                     </div>
                 </div>
             </section>

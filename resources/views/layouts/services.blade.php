@@ -195,6 +195,10 @@
 					
 					@include('partials._header')
 
+					<!-- Elfsight WhatsApp Chat | Arrow Head Design & Printshop -->
+			        <script src="https://elfsightcdn.com/platform.js" async></script>
+			        <div class="elfsight-app-55060a7a-2d03-42b5-ac73-c54a9e489a1c" data-elfsight-app-lazy></div>
+
 					<section
 						id=slideshow_container>
 						<div

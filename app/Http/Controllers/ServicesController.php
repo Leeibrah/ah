@@ -28,17 +28,17 @@ class ServicesController extends Controller
         ));
     }
 
-    public function socialMediaAdverts(){
+    public function graphicDesign(){
 
-        $page_title = 'Social Media Adverts';
-        $page_description = "This is the Social Media Adverts page";
+        $page_title = 'graphic Design';
+        $page_description = "This is the graphic Design page";
 
-        $service_tag = 'Social Media Adverts';
+        $service_tag = 'graphic Design';
         $service_description = 'A social media advert is any paid post or campaign a business runs on a social platform to promote products, services, or ideas to targeted users.';
 
         $service_banner_image = '/headers/social-media-adverts.png';
 
-        return view('pages.services.social-media-adverts', compact(
+        return view('pages.services.graphic-design', compact(
             'page_title', 'page_description', 'service_tag', 'service_description', 'service_banner_image'
         ));
     }
@@ -69,6 +69,81 @@ class ServicesController extends Controller
         $service_banner_image = '/headers/outdoor-branding.png';
 
         return view('pages.services.outdoor-branding', compact(
+            'page_title', 'page_description', 'service_tag', 'service_description', 'service_banner_image'
+        ));
+    }
+
+    public function signage(){
+
+        $page_title = 'Signage';
+        $page_description = "This is the Signage page";
+
+        $service_tag = 'Signage';
+        $service_description = 'A social media advert is any paid post or campaign a business runs on a social platform to promote products, services, or ideas to targeted users.';
+
+        $service_banner_image = '/headers/social-media-adverts.png';
+
+        return view('pages.services.signage', compact(
+            'page_title', 'page_description', 'service_tag', 'service_description', 'service_banner_image'
+        ));
+    }
+
+    public function healthAndSafety(){
+
+        $page_title = 'Health and Safety';
+        $page_description = "This is the Health and Safety page";
+
+        $service_tag = 'Health and Safety';
+        $service_description = 'Health and safety signs are visual indicators or symbols used to communicate important information about potential hazards, safety instructions, or emergency procedures within a workplace or public area.';
+
+        $service_banner_image = '/headers/health-and-safety.png';
+
+        return view('pages.services.health-and-safety', compact(
+            'page_title', 'page_description', 'service_tag', 'service_description', 'service_banner_image'
+        ));
+    }
+
+    public function promoMerchandise(){
+
+        $page_title = 'Promo Merchandise';
+        $page_description = "This is the Promo Merchandise page";
+
+        $service_tag = 'Promo Merchandise';
+        $service_description = 'Health and safety signs are visual indicators or symbols used to communicate important information about potential hazards, safety instructions, or emergency procedures within a workplace or public area.';
+
+        $service_banner_image = '/headers/health-and-safety.png';
+
+        return view('pages.services.promo-merchandise', compact(
+            'page_title', 'page_description', 'service_tag', 'service_description', 'service_banner_image'
+        ));
+    }
+
+    public function vehicleBranding(){
+
+        $page_title = 'Vehicle Branding';
+        $page_description = "This is the Vehicle Branding page";
+
+        $service_tag = 'Vehicle Branding';
+        $service_description = 'Health and safety signs are visual indicators or symbols used to communicate important information about potential hazards, safety instructions, or emergency procedures within a workplace or public area.';
+
+        $service_banner_image = '/headers/health-and-safety.png';
+
+        return view('pages.services.vehicle-branding', compact(
+            'page_title', 'page_description', 'service_tag', 'service_description', 'service_banner_image'
+        ));
+    }
+
+    public function gallery(){
+
+        $page_title = 'Gallery';
+        $page_description = "This is the Gallery page";
+
+        $service_tag = 'Gallery';
+        $service_description = 'Health and safety signs are visual indicators or symbols used to communicate important information about potential hazards, safety instructions, or emergency procedures within a workplace or public area.';
+
+        $service_banner_image = '/headers/health-and-safety.png';
+
+        return view('pages.services.vehicle-branding', compact(
             'page_title', 'page_description', 'service_tag', 'service_description', 'service_banner_image'
         ));
     }
@@ -208,17 +283,19 @@ class ServicesController extends Controller
         ));
     }
 
-    public function healthAndSafety(){
+    
 
-        $page_title = 'Health and Safety';
-        $page_description = "This is the Health and Safety page";
+    public function socialMediaAdverts(){
 
-        $service_tag = 'Health and Safety';
-        $service_description = 'Health and safety signs are visual indicators or symbols used to communicate important information about potential hazards, safety instructions, or emergency procedures within a workplace or public area.';
+        $page_title = 'Social Media Adverts';
+        $page_description = "This is the Social Media Adverts page";
 
-        $service_banner_image = '/headers/health-and-safety.png';
+        $service_tag = 'Social Media Adverts';
+        $service_description = 'A social media advert is any paid post or campaign a business runs on a social platform to promote products, services, or ideas to targeted users.';
 
-        return view('pages.services.health-and-safety', compact(
+        $service_banner_image = '/headers/social-media-adverts.png';
+
+        return view('pages.services.social-media-adverts', compact(
             'page_title', 'page_description', 'service_tag', 'service_description', 'service_banner_image'
         ));
     }

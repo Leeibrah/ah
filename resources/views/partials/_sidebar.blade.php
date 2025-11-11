@@ -3,21 +3,15 @@
             <h3>Products &#038; Services</h3>
             <div
                 class=menu-posts-menu-container>
-                <ul
-                    id=menu-posts-menu class=menu>
+                <ul id=menu-posts-menu class=menu>
                     <li id=menu-item-202 class="menu-item menu-item-type-post_type menu-item-object-post menu-item-202">
-                        <a href="{!! route('services.social-media-adverts') !!}">
-                            Social Media Adverts
+                        <a href="{!! route('services.graphic-design') !!}">
+                            Graphic Design
                         </a>
                     </li>
                     <li id=menu-item-203 class="menu-item menu-item-type-post_type menu-item-object-post menu-item-203">
                         <a href="{!! route('services.indoor-branding') !!}">
                             Indoor Branding
-                        </a>
-                    </li>
-                    <li id=menu-item-204 class="menu-item menu-item-type-post_type menu-item-object-post menu-item-204">
-                        <a href="{!! route('services.roll-up-banners') !!}">
-                            Roll up Banners
                         </a>
                     </li>
                     <li id=menu-item-205 class="menu-item menu-item-type-post_type menu-item-object-post menu-item-205">
@@ -26,48 +20,29 @@
                         </a>
                     </li>
                     <li id=menu-item-380 class="menu-item menu-item-type-post_type menu-item-object-post menu-item-380">
-                        <a href="{!! route('services.smiley-living-spaces') !!}">
-                            Smiley Living Spaces
+                        <a href="{!! route('services.signage') !!}">
+                            Signage
                         </a>
                     </li>
                     <li id=menu-item-206 class="menu-item menu-item-type-post_type menu-item-object-post menu-item-206">
-                        <a href="{!! route('services.logos') !!}">
-                            Logos
-                        </a>
-                    </li>
-                    <li id=menu-item-207 class="menu-item menu-item-type-post_type menu-item-object-post menu-item-207">
-                        <a href="{!! route('services.promo-give-aways') !!}">
-                            Promo Give Aways
-                        </a>
-                    </li>
-                    <li id=menu-item-208 class="menu-item menu-item-type-post_type menu-item-object-post menu-item-208">
-                        <a href="{!! route('services.drinkwares') !!}">
-                            Drinkwares
-                        </a>
-                    </li>
-                    <li id=menu-item-209 class="menu-item menu-item-type-post_type menu-item-object-post menu-item-209">
-                        <a href="{!! route('services.canvas-and-crafts') !!}">
-                            Canvas and Crafts
-                        </a>
-                    </li>
-                    <li id=menu-item-210 class="menu-item menu-item-type-post_type menu-item-object-post menu-item-210">
-                        <a href="{!! route('services.desk-and-accessories') !!}">
-                            Desk and Accessories
-                        </a>
-                    </li>
-                    <li id=menu-item-208 class="menu-item menu-item-type-post_type menu-item-object-post menu-item-208">
-                        <a href="{!! route('services.apparels-and-textiles') !!}">
-                            Apparels and Textiles
-                        </a>
-                    </li>
-                    <li id=menu-item-209 class="menu-item menu-item-type-post_type menu-item-object-post menu-item-209">
-                        <a href="{!! route('services.custom-branded-merchandise') !!}">
-                            Custom Branded Merchandise
-                        </a>
-                    </li>
-                    <li id=menu-item-210 class="menu-item menu-item-type-post_type menu-item-object-post menu-item-210">
                         <a href="{!! route('services.health-and-safety') !!}">
                             Health and Safety
+                        </a>
+                    </li>
+
+                    <li id=menu-item-207 class="menu-item menu-item-type-post_type menu-item-object-post menu-item-207">
+                        <a href="{!! route('services.promo-merchandise') !!}">
+                            Promo Merchandise
+                        </a>
+                    </li>
+                    <li id=menu-item-209 class="menu-item menu-item-type-post_type menu-item-object-post menu-item-209">
+                        <a href="{!! route('services.vehicle-branding') !!}">
+                            Vehicle Branding
+                        </a>
+                    </li>
+                    <li id=menu-item-210 class="menu-item menu-item-type-post_type menu-item-object-post menu-item-210">
+                        <a href="{!! route('services.gallery') !!}">
+                            Gallery
                         </a>
                     </li>
                 </ul>
@@ -95,10 +70,10 @@
                     <a href="{!! route('services.index') !!}" >Services
                     </a>
                 </li>
-                <!-- <li class="page_item page-item-41">
+                <li class="page_item page-item-41">
                     <a href="{!! route('testimonials') !!}" >Testimonials
                     </a>
-                </li> -->
+                </li>
                 <li class="page_item page-item-43">
                     <a href="{!! route('contacts') !!}" >Contact Us
                     </a>

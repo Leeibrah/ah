@@ -18,8 +18,8 @@
                             <a href="#">Services</a>
                             <ul class="sub-menu">
                                 <li id="menu-item-82" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-82">
-                                    <a href="{!! route('services.social-media-adverts') !!}">
-                                        Social Media Adverts
+                                    <a href="{!! route('services.graphic-design') !!}">
+                                        Graphic Design
                                     </a>
                                 </li>
                                 <li id="menu-item-81" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-81">
@@ -27,54 +27,14 @@
                                         Indoor Branding
                                     </a>
                                 </li>
-                                <li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-80">
-                                    <a href="{!! route('services.roll-up-banners') !!}">
-                                        Roll up Banners
-                                    </a>
-                                </li>
                                 <li id="menu-item-79" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-79">
                                     <a href="{!! route('services.outdoor-branding') !!}">
                                         Outdoor Branding
                                     </a>
                                 </li>
-                                <li id="menu-item-381" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-381">
-                                    <a href="{!! route('services.smiley-living-spaces')!!}">
-                                        Smiley Living Spaces
-                                    </a>
-                                </li>
-                                <li id="menu-item-78" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-78">
-                                    <a href="{!! route('services.logos') !!}">
-                                        Logos
-                                    </a>
-                                </li>
-                                <li id="menu-item-77" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-77">
-                                    <a href="{!! route('services.promo-give-aways') !!}">
-                                        Promo Give Aways
-                                    </a>
-                                </li>
-                                <li id="menu-item-76" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-76">
-                                    <a href="{!! route('services.drinkwares') !!}">
-                                        Drinkwares
-                                    </a>
-                                </li>
-                                <li id="menu-item-75" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-75">
-                                    <a href="{!! route('services.canvas-and-crafts') !!}">
-                                        Canvas and Crafts
-                                    </a>
-                                </li>
-                                <li id="menu-item-74" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-74">
-                                    <a href="{!! route('services.desk-and-accessories') !!}">
-                                        Desk and Accessories
-                                    </a>
-                                </li>
-                                <li id="menu-item-77" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-77">
-                                    <a href="{!! route('services.apparels-and-textiles') !!}">
-                                        Apparels and Textiles
-                                    </a>
-                                </li>
-                                <li id="menu-item-76" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-76">
-                                    <a href="{!! route('services.custom-branded-merchandise') !!}">
-                                        Custom Branded Merchandise
+                                <li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-80">
+                                    <a href="{!! route('services.signage') !!}">
+                                        Signage
                                     </a>
                                 </li>
                                 <li id="menu-item-75" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-75">
@@ -82,7 +42,21 @@
                                         Health and Safety
                                     </a>
                                 </li>
-                           
+                                <li id="menu-item-77" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-77">
+                                    <a href="{!! route('services.promo-merchandise') !!}">
+                                        Promo Merchandise
+                                    </a>
+                                </li>
+                                <li id="menu-item-75" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-75">
+                                    <a href="{!! route('services.vehicle-branding') !!}">
+                                        Vehicle Branding
+                                    </a>
+                                </li>
+                                <li id="menu-item-75" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-75">
+                                    <a href="{!! route('services.gallery') !!}">
+                                        Gallery
+                                    </a>
+                                </li>
                             </ul>
                         </li>
                         <!-- <li id="menu-item-68" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-68">
@@ -100,9 +74,9 @@
                             </ul>
                         </li> -->
                         
-                        <!-- <li id="menu-item-72" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-72">
-                            <a href="#">Testimonials</a>
-                        </li> -->
+                        <li id="menu-item-72" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-72">
+                            <a href="{!! route('testimonials') !!}">Testimonials</a>
+                        </li>
                         <li id="menu-item-69" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-69">
                             <a href="{!! route('contacts') !!}">Contact Us</a>
                         </li>

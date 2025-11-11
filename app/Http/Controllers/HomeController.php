@@ -44,8 +44,9 @@ class HomeController extends Controller
         // $about_banner_image = '/wp-content/uploads/2013/11/business-stationery-printing-page-header.jpg';
         $service_banner_image = '/headers/social-media-adverts.png';
 
-        return view('pages.about', 
-            compact('page_title', 'page_description', 'service_tag', 'service_description', 'service_banner_image')
+        return view('pages.about', compact(
+                'page_title', 'page_description', 'service_tag', 'service_description', 'service_banner_image'
+            )
         );
     }
 
@@ -57,12 +58,21 @@ class HomeController extends Controller
         return view('pages.gallery', compact('page_title', 'page_description'));
     }
 
-    public function testimonial(){
+    public function testimonials(){
 
-        $page_title = 'Testimonial Page';
+        $page_title = 'Testimonials';
         $page_description = "This is the testimonial us page";
 
-        return view('pages.testimonial', compact('page_title', 'page_description'));
+        $service_tag = 'Testimonials';
+        $service_description = 'Find out what our customers are saying about us.';
+
+        // $testimonial_banner_image = '/wp-content/uploads/2013/11/business-stationery-printing-page-header.jpg';
+        $service_banner_image = '/headers/social-media-adverts.png';
+
+        return view('pages.testimonials', compact(
+                'page_title', 'page_description', 'service_tag', 'service_description', 'service_banner_image'
+            )
+        );
     }
 
     public function contacts(){

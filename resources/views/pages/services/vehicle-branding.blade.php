@@ -15,10 +15,10 @@
 			</h2>
 			
 			<p>
-                Promo giveaways (short for promotional giveaways) are free branded items or gifts distributed by a company to promote its products, services, or brand awareness. 
-                <br>
-                They serve as marketing tools that leave a lasting impression on customers and help strengthen brand recognition.
-            </p>
+          Vehicle branding is the process of applying custom graphics, logos, and promotional designs to cars, vans, trucks, or other vehicles to advertise a business or organization. It transforms a vehicle into a moving billboard, helping to increase brand visibility and recognition wherever it travels. 
+          <br/><br/>
+          Vehicle branding can include full wraps, partial wraps, decals, or magnetic signs, designed to reflect the company’s identity and attract public attention.
+      </p>
 
 			<div class="gallery-container">
 

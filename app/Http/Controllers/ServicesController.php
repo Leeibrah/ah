@@ -30,11 +30,11 @@ class ServicesController extends Controller
 
     public function graphicDesign(){
 
-        $page_title = 'graphic Design';
-        $page_description = "This is the graphic Design page";
+        $page_title = 'Graphic Design';
+        $page_description = "This is the Graphic Design page";
 
-        $service_tag = 'graphic Design';
-        $service_description = 'A social media advert is any paid post or campaign a business runs on a social platform to promote products, services, or ideas to targeted users.';
+        $service_tag = 'Graphic Design';
+        $service_description = 'Graphic design is the art and practice of creating visual content to communicate messages and ideas effectively.';
 
         $service_banner_image = '/headers/social-media-adverts.png';
 
@@ -79,9 +79,9 @@ class ServicesController extends Controller
         $page_description = "This is the Signage page";
 
         $service_tag = 'Signage';
-        $service_description = 'A social media advert is any paid post or campaign a business runs on a social platform to promote products, services, or ideas to targeted users.';
+        $service_description = 'Signage in design refers to the creation and use of visual graphics, symbols, or text to communicate information, guide people, or promote a brand in physical or digital spaces.';
 
-        $service_banner_image = '/headers/social-media-adverts.png';
+        $service_banner_image = '/headers/smiley-living-spaces.png';
 
         return view('pages.services.signage', compact(
             'page_title', 'page_description', 'service_tag', 'service_description', 'service_banner_image'
@@ -109,9 +109,9 @@ class ServicesController extends Controller
         $page_description = "This is the Promo Merchandise page";
 
         $service_tag = 'Promo Merchandise';
-        $service_description = 'Health and safety signs are visual indicators or symbols used to communicate important information about potential hazards, safety instructions, or emergency procedures within a workplace or public area.';
+        $service_description = 'Promo giveaways (short for promotional giveaways) are free branded items or gifts distributed by a company to promote its products, services, or brand awareness.';
 
-        $service_banner_image = '/headers/health-and-safety.png';
+        $service_banner_image = '/headers/drinkwares.png';
 
         return view('pages.services.promo-merchandise', compact(
             'page_title', 'page_description', 'service_tag', 'service_description', 'service_banner_image'
@@ -124,9 +124,9 @@ class ServicesController extends Controller
         $page_description = "This is the Vehicle Branding page";
 
         $service_tag = 'Vehicle Branding';
-        $service_description = 'Health and safety signs are visual indicators or symbols used to communicate important information about potential hazards, safety instructions, or emergency procedures within a workplace or public area.';
+        $service_description = 'Vehicle branding is the process of applying custom graphics, logos, and promotional designs to cars, vans, trucks, or other vehicles to advertise a business or organization';
 
-        $service_banner_image = '/headers/health-and-safety.png';
+        $service_banner_image = '/headers/custom-made.png';
 
         return view('pages.services.vehicle-branding', compact(
             'page_title', 'page_description', 'service_tag', 'service_description', 'service_banner_image'
@@ -139,9 +139,9 @@ class ServicesController extends Controller
         $page_description = "This is the Gallery page";
 
         $service_tag = 'Gallery';
-        $service_description = 'Health and safety signs are visual indicators or symbols used to communicate important information about potential hazards, safety instructions, or emergency procedures within a workplace or public area.';
+        $service_description = 'Gallery design refers to the planning and arrangement of a space to display artwork, photographs, or visual exhibits in an engaging and functional way.';
 
-        $service_banner_image = '/headers/health-and-safety.png';
+        $service_banner_image = '/headers/canvas-and-crafts.png';
 
         return view('pages.services.vehicle-branding', compact(
             'page_title', 'page_description', 'service_tag', 'service_description', 'service_banner_image'

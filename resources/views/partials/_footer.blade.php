@@ -6,8 +6,8 @@
             </a>
             
             <p>
-                Thika,<br>
-                Kenya
+                Savannah Compound, Mgoko Rd, Section 9, Thika Town<br>
+                Kiambu County, Kenya
             </p>
             
             <p class="right">

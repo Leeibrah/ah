@@ -238,12 +238,15 @@
                     <p><em
                         class=grey>Arrow Head Design & Printshop</em><br>
                         <!-- Units 1 & 2 Benjamin Outram Business Centre<br> -->
-                        Thika Road<br>
+                        Savannah Compound<br>
+                        Mgoko Road<br>
+                        Section 9<br>
                         Thika Town<br>
                         Kiambu County<br>
                         Kenya<br>
+                        <br>
                         <em
-                            class=blue>Telephone:</em> 0722 206 268<br>
+                            class=blue>Telephone:</em> +245 722 206 268<br>
                         <em
                             class=blue>Email:</em>
                         <a
@@ -251,8 +254,8 @@
                     </p>
                     <p><em
                         class=blue>Opening times:</em><br>
-                        Monday - Friday 8.30am - 6.00pm<br>
-                        Saturday - 8:30am - 2:00pm
+                        Monday - Friday 9:00 AM - 6.00 PM<br>
+                        Saturday - 9:00 AM - 3:00 PM
                     </p>
                 </div>
             </ul>

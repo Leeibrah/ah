@@ -15,10 +15,10 @@
 			</h2>
 			
 			<p>
-                Promo giveaways (short for promotional giveaways) are free branded items or gifts distributed by a company to promote its products, services, or brand awareness. 
-                <br>
-                They serve as marketing tools that leave a lasting impression on customers and help strengthen brand recognition.
-            </p>
+          Gallery design refers to the planning and arrangement of a space to display artwork, photographs, or visual exhibits in an engaging and functional way. It involves organizing lighting, layout, color schemes, and display structures to enhance how viewers experience the art or products on show. 
+          <br/><br/>
+          Effective gallery design balances aesthetics and practicality, ensuring that the presentation highlights the exhibits while guiding visitors smoothly through the space.
+      </p>
 
 			<div class="gallery-container">
 

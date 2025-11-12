@@ -14,9 +14,9 @@
 			</h2>
 			
 			<p>
-                Apparel and textile design is the art and process of creating clothing, fabrics, and fashion accessories by combining elements of style, color, pattern, and material. 
-                <br>
-                It involves designing both the fabric (textile design) and the final garments (apparel design) to meet functional, aesthetic, and cultural needs.
+                Graphic design is the art and practice of creating visual content to communicate messages and ideas effectively. It combines images, text, colors, and layouts to produce designs used in branding, advertising, print materials, digital media, and more. 
+                <br/><br/>
+                The goal of graphic design is to capture attention, convey information clearly, and create an appealing visual experience that aligns with a brand’s identity or purpose.
             </p>
 
 			<div class="gallery-container">

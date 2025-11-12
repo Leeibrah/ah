@@ -14,10 +14,10 @@
 			</h2>
 			
 			<p>
-                Apparel and textile design is the art and process of creating clothing, fabrics, and fashion accessories by combining elements of style, color, pattern, and material. 
-                <br>
-                It involves designing both the fabric (textile design) and the final garments (apparel design) to meet functional, aesthetic, and cultural needs.
-            </p>
+          Signage in design refers to the creation and use of visual graphics, symbols, or text to communicate information, guide people, or promote a brand in physical or digital spaces. 
+          <br/><br/>
+          It combines elements of graphic design, typography, and spatial awareness to produce signs that are both functional and visually appealing. Effective signage enhances navigation, strengthens brand identity, and improves user experience in environments such as businesses, public spaces, and events.
+      </p>
 
 			<div class="gallery-container">
 

@@ -584,12 +584,130 @@
                 </a>
             </div>
             
-            <div class="eight columns">
+            <div class="eight columns" style="margin-top: -40px;">
                 <h2>Importance of Advertising</h2>
                 <h3>Start Today by Sharing a Referral Code</h3>
-                <p></p>
+                <form action="{!! route('referralPost') !!}" method=post 
+                    class="wpcf7-form init" aria-label="Contact form" novalidate=novalidate data-status=init>
+                    {!! csrf_field() !!}
+                    
+                    <div
+                        class=row>
+                        <div
+                            class="three columns alpha">
+                        
+                            <p>
+                                Email
+                                <span class=gold_text>*</span>
+                                <br>
+                                <span class=wpcf7-form-control-wrap data-name=email>
+                                    <input
+                                        size=40 
+                                        maxlength=100 
+                                        class="wpcf7-form-control wpcf7-email wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-email" 
+                                        aria-required=true 
+                                        aria-invalid=false 
+                                        value 
+                                        type=email 
+                                        name="email"
+                                    >
+                                </span>
+                            </p>
+                        </div>
+                
+                        <div
+                            class="three columns alpha">
+                            <p>
+                                Select Referrer<span
+                                    class=gold_text>*</span><br>
+                                <span
+                                    class=wpcf7-form-control-wrap data-name=ServiceRequired>
+                                    <select
+                                        class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required" aria-required=true aria-invalid=false name=ref>
+                                        <option
+                                            value>&#8212;Please choose an option&#8212;</option>
+                                        <option
+                                            value="MEDIXA">MEDIXA</option>
+                                        <option
+                                            value="RNTeflon">RNTeflon</option>
+                                        
+                                    </select>
+                                </span>
+                            </p>
+                        </div>
+          
+                        <div class="two columns alpha" style="margin-top: 3%;">
+              
+                            <p>
+                                <button class="wpcf7-form-control wpcf7-submit has-spinner" type="submit">Submit</button>
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class=wpcf7-response-output aria-hidden=true>
+                    </div>
+                </form>
+                <!-- <div class="form-container">
+                    <form class="referral-form">
+
+                        <div class="form-group">
+                            <label>Email *</label>
+                            <input type="email" placeholder="">
+                        </div>
+
+                        <div class="form-group">
+                            <label>Select Referrer*</label>
+                            <select>
+                                <option>—Please choose an option—</option>
+                                <option>Facebook</option>
+                                <option>Instagram</option>
+                                <option>Website</option>
+                                <option>Friend</option>
+                            </select>
+                        </div>
+
+                        <button type="submit" class="submit-btn">SUBMIT</button>
+                    </form>
+                </div> -->
+
                 <!-- <a href="#l" class="button">
                 Read More</a> -->
+
+                @if(isset($email))                
+                    <div class="referral-box">
+                        <label>Share your referral link</label>
+
+                        <div class="input-row">
+                            <input type="text" id="referralLink" value="https://www.arrowheadprintshop.com/?email={{$email}}&ref={{$ref}}" readonly>
+                            <button class="copy-btn" id="copyBtn">Copy Link</button>
+                        </div>
+
+                        <!-- <div class="copy-box">
+                            <label>Share your referral link</label>
+                            <div class="copy-wrapper">
+                                <input type="text" id="referralLink" value="https://www.arrowheadprintshop.com/?email={{$email}}&ref={{$ref}}">
+                                <button id="copyBtn">COPY LINK</button>
+                            </div>
+                        </div> -->
+
+                        <div class="share-buttons">
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.arrowheadprintshop.com/?email={{$email}}&ref={{$ref}}" target="_blank">
+                                <button class="btn fb">Share on Facebook</button>    
+                            </a>
+                            <a href="https://twitter.com/intent/tweet?url=https://www.arrowheadprintshop.com/?ref={{$ref}}&text=Get your design and printing done at Arrow Head Design and Printshop." target="_blank">
+                                <button class="btn x">Share on X</button>    
+                            </a>
+                            <a href="mailto:?subject=Arrow Head Design and Printshop&amp;body=Get your design and printing done at Arrow Head Design and Printshop https://www.arrowheadprintshop.com.">
+                                <button class="btn mail">Share via Email</button>    
+                            </a>
+                            
+                            <!-- <button class="btn messenger">Share via Facebook Messenger</button> -->
+                        </div>
+
+                        <p class="terms">By sharing the referral link you agree to the terms.</p>
+                    </div>
+                @endif
+
             </div>
         </div>
     </section>

@@ -129,6 +129,24 @@
 
         @include("partials._footer") 
 
+        <script>
+            document.getElementById("copyBtn").addEventListener("click", function () {
+                const input = document.getElementById("referralLink");
+
+                // Select the text inside the input
+                input.select();
+                input.setSelectionRange(0, 99999); // For mobile devices
+
+                // Copy to clipboard
+                navigator.clipboard.writeText(input.value).then(() => {
+                    // Optional: Change button text to confirm
+                    const btn = document.getElementById("copyBtn");
+                    btn.textContent = "Copied!";
+                    setTimeout(() => btn.textContent = "Copy Link", 2000);
+                });
+            });
+        </script>
+
         <script src="wp-content/themes/signs-print/js/site.js%3Fver=2.0.6" id="scripts-js"></script>
 
         <script id="ngg_common-js-extra">

@@ -28,11 +28,11 @@
         <!-- Open Graph Meta Tags -->
         <meta property="og:locale" content="en_US">
         <meta property="og:type" content="website">
-        <meta property="og:title" content="Sign and Print Ripley in Derbyshire, single vans to fleets | shop signs to corporate re-brands">
-        <meta property="og:description" content="Sign and Print Ripley in Derbyshire, the quality sign and vehicle graphics designers. Small to multi-national projects, single vehicles to large fleets!">
-        <meta property="og:url" content="https://www.signs-print.com/">
+        <meta property="og:title" content="Arrow Head Design & Printshop.">
+        <meta property="og:description" content="Arrow Head Design & Printshop, a ONE-STOP PRINTSHOP committed towards offering custom branding solutions from design concepts through production to the final branded media.">
+        <meta property="og:url" content="https://www.arrowheadprintshop.com">
         <meta property="article:modified_time" content="2013-11-26T21:35:50+00:00">
-        <meta property="og:image" content="http://www.signs-print.com/wp-content/themes/signs-print/images/layout/side-graphic.png">
+        <meta property="og:image" content="/wp-content/themes/signs-print/images/layout/side-graphic.png">
         
         <!-- Schema.org JSON-LD -->
         <script type="application/ld+json" class="yoast-schema-graph">
@@ -41,43 +41,43 @@
                 "@graph": [
                     {
                         "@type": "WebPage",
-                        "@id": "https://www.signs-print.com/",
-                        "url": "https://www.signs-print.com/",
+                        "@id": "https://www.arrowheadprintshop.com/",
+                        "url": "https://www.arrowheadprintshop.com/",
                         "name": "Sign and Print Ripley in Derbyshire, single vans to fleets | shop signs to corporate re-brands",
                         "isPartOf": {
-                            "@id": "https://www.signs-print.com/#website"
+                            "@id": "https://www.arrowheadprintshop.com/#website"
                         },
                         "primaryImageOfPage": {
-                            "@id": "https://www.signs-print.com/#primaryimage"
+                            "@id": "https://www.arrowheadprintshop.com/#primaryimage"
                         },
                         "image": {
-                            "@id": "https://www.signs-print.com/#primaryimage"
+                            "@id": "https://www.arrowheadprintshop.com/#primaryimage"
                         },
                         "thumbnailUrl": "http://www.signs-print.com/wp-content/themes/signs-print/images/layout/side-graphic.png",
                         "datePublished": "2013-11-25T21:15:05+00:00",
                         "dateModified": "2013-11-26T21:35:50+00:00",
                         "description": "Sign and Print Ripley in Derbyshire, the quality sign and vehicle graphics designers. Small to multi-national projects, single vehicles to large fleets!",
                         "breadcrumb": {
-                            "@id": "https://www.signs-print.com/#breadcrumb"
+                            "@id": "https://www.arrowheadprintshop.com/#breadcrumb"
                         },
                         "inLanguage": "en-US",
                         "potentialAction": [
                             {
                                 "@type": "ReadAction",
-                                "target": ["https://www.signs-print.com/"]
+                                "target": ["https://www.arrowheadprintshop.com/"]
                             }
                         ]
                     },
                     {
                         "@type": "ImageObject",
                         "inLanguage": "en-US",
-                        "@id": "https://www.signs-print.com/#primaryimage",
+                        "@id": "https://www.arrowheadprintshop.com/#primaryimage",
                         "url": "http://www.signs-print.com/wp-content/themes/signs-print/images/layout/side-graphic.png",
                         "contentUrl": "http://www.signs-print.com/wp-content/themes/signs-print/images/layout/side-graphic.png"
                     },
                     {
                         "@type": "BreadcrumbList",
-                        "@id": "https://www.signs-print.com/#breadcrumb",
+                        "@id": "https://www.arrowheadprintshop.com/#breadcrumb",
                         "itemListElement": [
                             {
                                 "@type": "ListItem",
@@ -88,8 +88,8 @@
                     },
                     {
                         "@type": "WebSite",
-                        "@id": "https://www.signs-print.com/#website",
-                        "url": "https://www.signs-print.com/",
+                        "@id": "https://www.arrowheadprintshop.com/#website",
+                        "url": "https://www.arrowheadprintshop.com/",
                         "name": "",
                         "description": "",
                         "potentialAction": [
@@ -97,7 +97,7 @@
                                 "@type": "SearchAction",
                                 "target": {
                                     "@type": "EntryPoint",
-                                    "urlTemplate": "https://www.signs-print.com/?s={search_term_string}"
+                                    "urlTemplate": "https://www.arrowheadprintshop.com/?s={search_term_string}"
                                 },
                                 "query-input": {
                                     "@type": "PropertyValueSpecification",
@@ -130,7 +130,7 @@
                 "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/",
                 "svgExt": ".svg",
                 "source": {
-                    "concatemoji": "https:\/\/www.signs-print.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=45719f136b7b39f5e6464bf3e39d7ea2"
+                    "concatemoji": "https:\/\/www.arrowheadprintshop.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=45719f136b7b39f5e6464bf3e39d7ea2"
                 }
             };
             /*! This file is auto-generated */
@@ -238,7 +238,7 @@
         </style>
         
         <!-- WordPress Styles -->
-        <link rel="stylesheet" id="wp-block-library-css" href="https://www.signs-print.com/wp-includes/css/dist/block-library/style.min.css?ver=45719f136b7b39f5e6464bf3e39d7ea2" type="text/css" media="all">
+        <link rel="stylesheet" id="wp-block-library-css" href="https://www.arrowheadprintshop.com/wp-includes/css/dist/block-library/style.min.css?ver=45719f136b7b39f5e6464bf3e39d7ea2" type="text/css" media="all">
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
@@ -632,20 +632,20 @@
         </style>
         
         <!-- NextGen Gallery Styles -->
-        <link rel="stylesheet" id="ngg_trigger_buttons-css" href="https://www.signs-print.com/wp-content/plugins/nextgen-gallery/static/GalleryDisplay/trigger_buttons.css?ver=3.59.12" type="text/css" media="all">
-        <link rel="stylesheet" id="photocrati-nextgen_pro_lightbox-0-css" href="https://www.signs-print.com/wp-content/plugins/nextgen-gallery-plus/modules/nextgen_pro_lightbox/static/style.css?ver=3.59.12" type="text/css" media="all">
-        <link rel="stylesheet" id="photocrati-nextgen_pro_lightbox-1-css" href="https://www.signs-print.com/wp-content/plugins/nextgen-gallery-plus/modules/nextgen_pro_lightbox/static/theme/galleria.nextgen_pro_lightbox.css?ver=3.59.12" type="text/css" media="all">
-        <link rel="stylesheet" id="fontawesome_v4_shim_style-css" href="https://www.signs-print.com/wp-content/plugins/nextgen-gallery/static/FontAwesome/css/v4-shims.min.css?ver=45719f136b7b39f5e6464bf3e39d7ea2" type="text/css" media="all">
-        <link rel="stylesheet" id="fontawesome-css" href="https://www.signs-print.com/wp-content/plugins/nextgen-gallery/static/FontAwesome/css/all.min.css" type="text/css" media="all">
+        <link rel="stylesheet" id="ngg_trigger_buttons-css" href="https://www.arrowheadprintshop.com/wp-content/plugins/nextgen-gallery/static/GalleryDisplay/trigger_buttons.css?ver=3.59.12" type="text/css" media="all">
+        <link rel="stylesheet" id="photocrati-nextgen_pro_lightbox-0-css" href="https://www.arrowheadprintshop.com/wp-content/plugins/nextgen-gallery-plus/modules/nextgen_pro_lightbox/static/style.css?ver=3.59.12" type="text/css" media="all">
+        <link rel="stylesheet" id="photocrati-nextgen_pro_lightbox-1-css" href="https://www.arrowheadprintshop.com/wp-content/plugins/nextgen-gallery-plus/modules/nextgen_pro_lightbox/static/theme/galleria.nextgen_pro_lightbox.css?ver=3.59.12" type="text/css" media="all">
+        <link rel="stylesheet" id="fontawesome_v4_shim_style-css" href="https://www.arrowheadprintshop.com/wp-content/plugins/nextgen-gallery/static/FontAwesome/css/v4-shims.min.css?ver=45719f136b7b39f5e6464bf3e39d7ea2" type="text/css" media="all">
+        <link rel="stylesheet" id="fontawesome-css" href="https://www.arrowheadprintshop.com/wp-content/plugins/nextgen-gallery/static/FontAwesome/css/all.min.css" type="text/css" media="all">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-        <link rel="stylesheet" id="nextgen_pagination_style-css" href="https://www.signs-print.com/wp-content/plugins/nextgen-gallery/static/GalleryDisplay/pagination_style.css?ver=3.59.12" type="text/css" media="all">
-        <link rel="stylesheet" id="nextgen_basic_thumbnails_style-css" href="https://www.signs-print.com/wp-content/plugins/nextgen-gallery/static/Thumbnails/nextgen_basic_thumbnails.css?ver=3.59.12" type="text/css" media="all">
-        <link rel="stylesheet" id="nextgen_widgets_style-css" href="https://www.signs-print.com/wp-content/plugins/nextgen-gallery/static/Widget/display.css?ver=3.59.12" type="text/css" media="all">
+        <link rel="stylesheet" id="nextgen_pagination_style-css" href="https://www.arrowheadprintshop.com/wp-content/plugins/nextgen-gallery/static/GalleryDisplay/pagination_style.css?ver=3.59.12" type="text/css" media="all">
+        <link rel="stylesheet" id="nextgen_basic_thumbnails_style-css" href="https://www.arrowheadprintshop.com/wp-content/plugins/nextgen-gallery/static/Thumbnails/nextgen_basic_thumbnails.css?ver=3.59.12" type="text/css" media="all">
+        <link rel="stylesheet" id="nextgen_widgets_style-css" href="https://www.arrowheadprintshop.com/wp-content/plugins/nextgen-gallery/static/Widget/display.css?ver=3.59.12" type="text/css" media="all">
         
         <!-- JavaScript Libraries -->
-        <script src="https://www.signs-print.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
-        <script src="https://www.signs-print.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+        <script src="https://www.arrowheadprintshop.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+        <script src="https://www.arrowheadprintshop.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
         
         <script id="snazzymaps-js-js-extra">
             var SnazzyDataForSnazzyMaps = [];
@@ -668,7 +668,7 @@
             };
         </script>
         
-        <script src="https://www.signs-print.com/wp-content/plugins/snazzy-maps/snazzymaps.js?ver=1.5.0" id="snazzymaps-js-js"></script>
+        <script src="https://www.arrowheadprintshop.com/wp-content/plugins/snazzy-maps/snazzymaps.js?ver=1.5.0" id="snazzymaps-js-js"></script>
         
         <script id="photocrati_ajax-js-extra">
             var photocrati_ajax = {
@@ -685,12 +685,12 @@
             };
         </script>
         
-        <script src="https://www.signs-print.com/wp-content/plugins/nextgen-gallery/static/Legacy/ajax.min.js?ver=3.59.12" id="photocrati_ajax-js"></script>
-        <script src="https://www.signs-print.com/wp-content/plugins/nextgen-gallery-plus/modules/galleria/static/galleria-1.6.1.js?ver=1.6.1" id="ngg_galleria-js"></script>
-        <script src="https://www.signs-print.com/wp-content/plugins/nextgen-gallery/static/FontAwesome/js/v4-shims.min.js?ver=5.3.1" id="fontawesome_v4_shim-js"></script>
-        <script defer crossorigin="anonymous" data-auto-replace-svg="false" data-keep-original-source="false" data-search-pseudo-elements src="https://www.signs-print.com/wp-content/plugins/nextgen-gallery/static/FontAwesome/js/all.min.js?ver=5.3.1" id="fontawesome-js"></script>
-        <script src="https://www.signs-print.com/wp-content/plugins/nextgen-gallery-plus/modules/picturefill/static/picturefill.min.js?ver=3.0.2" id="picturefill-js"></script>
-        <script src="https://www.signs-print.com/wp-content/plugins/nextgen-gallery/static/Thumbnails/nextgen_basic_thumbnails.js?ver=3.59.12" id="nextgen_basic_thumbnails_script-js"></script>
+        <script src="https://www.arrowheadprintshop.com/wp-content/plugins/nextgen-gallery/static/Legacy/ajax.min.js?ver=3.59.12" id="photocrati_ajax-js"></script>
+        <script src="https://www.arrowheadprintshop.com/wp-content/plugins/nextgen-gallery-plus/modules/galleria/static/galleria-1.6.1.js?ver=1.6.1" id="ngg_galleria-js"></script>
+        <script src="https://www.arrowheadprintshop.com/wp-content/plugins/nextgen-gallery/static/FontAwesome/js/v4-shims.min.js?ver=5.3.1" id="fontawesome_v4_shim-js"></script>
+        <script defer crossorigin="anonymous" data-auto-replace-svg="false" data-keep-original-source="false" data-search-pseudo-elements src="https://www.arrowheadprintshop.com/wp-content/plugins/nextgen-gallery/static/FontAwesome/js/all.min.js?ver=5.3.1" id="fontawesome-js"></script>
+        <script src="https://www.arrowheadprintshop.com/wp-content/plugins/nextgen-gallery-plus/modules/picturefill/static/picturefill.min.js?ver=3.0.2" id="picturefill-js"></script>
+        <script src="https://www.arrowheadprintshop.com/wp-content/plugins/nextgen-gallery/static/Thumbnails/nextgen_basic_thumbnails.js?ver=3.59.12" id="nextgen_basic_thumbnails_script-js"></script>
         
         <!-- WordPress API Links -->
         <link rel="https://api.w.org/" href="/wp-json/#">

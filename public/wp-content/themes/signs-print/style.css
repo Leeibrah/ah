@@ -901,7 +901,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 /* Forms */
 form {
-    margin-bottom: 42px
+    margin-bottom: 12px
 }
 
 fieldset {
@@ -2282,3 +2282,96 @@ footer a:hover, footer span a:hover {
 .social-icon:hover {
     color: #f0b400; /* gold accent */
 }
+
+.referral-box {
+    width: 480px;
+    font-family: Arial, sans-serif;
+}
+
+.title {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/*.input-row {
+    display: flex;
+    margin: 10px 0;
+}
+
+.input-row input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #c5c9d0;
+    border-radius: 6px 0 0 6px;
+    font-size: 14px;
+    color: #3a3a3a;
+}
+
+.copy-btn {
+    background: #edf2ff;
+    border: 1px solid #d5ddff;
+    padding: 10px 14px;
+    border-radius: 0 6px 6px 0;
+    cursor: pointer;
+    font-size: 14px;
+    color: #2b57ff;
+}*/
+.input-row {
+    display: flex;
+    margin: 10px 0;
+}
+
+.input-row input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #c5c9d0;
+    border-radius: 6px 0 0 6px;
+    font-size: 14px;
+    color: #3a3a3a;
+    height: 42px; /* fixed height */
+    box-sizing: border-box;
+}
+
+.copy-btn {
+    background: #edf2ff;
+    border: 1px solid #d5ddff;
+    padding: 0 14px; /* remove vertical padding */
+    border-radius: 0 6px 6px 0;
+    cursor: pointer;
+    font-size: 14px;
+    color: #2b57ff;
+    height: 42px; /* same height as the input */
+    display: flex;
+    align-items: center; /* vertical center */
+    justify-content: center;
+}
+
+.share-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.btn {
+    border: none;
+    padding: 10px 16px;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.fb { background: #1877f2; }
+.x { background: #0f0f0f; }
+.mail { background: #f9a825; }
+.messenger { background: #006aff; }
+
+.terms {
+    font-size: 12px;
+    color: #808080;
+    margin-top: 10px;
+}
+
+

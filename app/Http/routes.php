@@ -42,4 +42,6 @@ Route::group(['prefix' => 'services'], function() {
 Route::get( 'contacts',                 ['as' => 'contacts',                        'uses' => 'HomeController@contacts']);
 Route::post('contacts',                 ['as' => 'contactsPost',                    'uses' => 'HomeController@postContacts']);
 
+Route::post('referral',                 ['as' => 'referralPost',                    'uses' => 'HomeController@postReferral']);
+
 Route::get('mail', 'HomeController@mail');

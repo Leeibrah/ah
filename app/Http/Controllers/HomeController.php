@@ -146,6 +146,73 @@ class HomeController extends Controller
         
     }
 
+    public function postReferral(Request $request)
+    {
+
+        $page_title = 'Referral Page';
+        $page_description = "This is the Referral page";
+        $message = "Referral send Successfully. We will get back to you. Thank You.";
+
+        if ($request->has('email')) {
+            $email = $request['email'];
+        }
+        if ($request->has('ref')) {
+            $ref = $request['ref'];
+        }
+
+        // dd($request);
+
+        return view('welcome', compact('page_title', 'page_description', 'message', 'email', 'ref'));
+
+        // dd($request);
+
+        // if($request['answer'] === '99'){
+        //     $name = "N/A";
+            // if ($request->has('name')) {
+            //     $fromName = $request['name'];
+            // }
+            // if ($request->has('email')) {
+            //     $fromEmail = $request['email'];
+            // }
+            // if ($request->has('phone')) {
+            //     $fromPhone = $request['phone'];
+            // }
+            // if ($request->has('subject')) {
+            //     $theSubject = $request['subject'];
+            // }
+            // if ($request->has('message')) {
+            //     $theMessage = $request['message'];
+            // }
+
+            // $data = array('email' => $fromEmail, 'phone'  => $fromPhone, 'name' => $fromName, 'subject' => $theSubject, 'linemessage' => $theMessage);
+
+            // try {
+            //     print $response->statusCode() . "\n";
+            //     print_r($response->headers());
+            //     print $response->body() . "\n";
+            // } catch (Exception $e) {
+            //     echo 'Caught exception: '. $e->getMessage() ."\n";
+            // }
+
+
+            // Mail::send('emails.contact', $data, function($message) use ($data) {
+            //     $message->to('info@mdigital.co.ke');
+            //     $message->subject($data['subject']);
+            // });
+            
+            // return redirect(route('Referral'));
+            
+            // return view('welcome', compact('page_title', 'page_description', 'email', 'ref'));
+
+        // }else{
+            
+        //     $message = 'Referral not send. Please try again or contact us.';
+        //     return view('welcome', compact('page_title', 'page_description', 'message'));
+
+        // }
+        
+    }
+
 
     public function mail(){
 

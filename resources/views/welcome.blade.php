@@ -588,7 +588,7 @@
                 <h2>Importance of Advertising</h2>
                 <h3>Start Today by Sharing a Referral Code</h3>
                 <form action="{!! route('referralPost') !!}" method=post 
-                    class="wpcf7-form init" aria-label="Contact form" novalidate=novalidate data-status=init>
+                    class="wpcf7-form init" aria-label="Contact form" data-status=init>
                     {!! csrf_field() !!}
                     
                     <div
@@ -610,6 +610,7 @@
                                         value 
                                         type=email 
                                         name="email"
+                                        required=required
                                     >
                                 </span>
                             </p>
@@ -623,7 +624,7 @@
                                 <span
                                     class=wpcf7-form-control-wrap data-name=ServiceRequired>
                                     <select
-                                        class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required" aria-required=true aria-invalid=false name=ref>
+                                        class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required" aria-required=true aria-invalid=false name=ref required=required>
                                         <option
                                             value>&#8212;Please choose an option&#8212;</option>
                                         <option

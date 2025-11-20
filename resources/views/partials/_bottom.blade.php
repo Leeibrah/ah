@@ -87,110 +87,68 @@
                 <h4 class="widget-title">Service Tags</h4>
                 <div class="tagcloud">
                     <a 
-                        href="{!! route('services.social-media-adverts') !!}" 
+                        href="{!! route('services.graphic-design') !!}" 
                         class="tag-cloud-link tag-link-24 tag-link-position-1" 
                         style="font-size: 10.964705882353pt;" 
-                        aria-label="Architectural Signage (2 items)">
-                            Social Media Adverts
+                        aria-label="Graphic Design">
+                            Graphic Design
                     </a>
                     <br>
                     <a 
                         href="{!! route('services.indoor-branding') !!}" 
                         class="tag-cloud-link tag-link-24 tag-link-position-1" 
                         style="font-size: 10.964705882353pt;" 
-                        aria-label="Architectural Signage (2 items)">
+                        aria-label="Indoor Branding">
                             Indoor Branding
-                    </a>
-                    <br>
-                    <a 
-                        href="{!! route('services.roll-up-banners') !!}" 
-                        class="tag-cloud-link tag-link-24 tag-link-position-1" 
-                        style="font-size: 10.964705882353pt;" 
-                        aria-label="Architectural Signage (2 items)">
-                            Roll up Banners
                     </a>
                     <br>
                     <a 
                         href="{!! route('services.outdoor-branding') !!}" 
                         class="tag-cloud-link tag-link-24 tag-link-position-1" 
                         style="font-size: 10.964705882353pt;" 
-                        aria-label="Architectural Signage (2 items)">
+                        aria-label="Outdoor Branding">
                             Outdoor Branding
                     </a>
                     <br>
                     <a 
-                        href="{!! route('services.smiley-living-spaces') !!}" 
+                        href="{!! route('services.signage') !!}" 
                         class="tag-cloud-link tag-link-24 tag-link-position-1" 
                         style="font-size: 10.964705882353pt;" 
-                        aria-label="Architectural Signage (2 items)">
-                            Smiley Living Spaces
-                    </a>
-                    <br>
-                    <a 
-                        href="{!! route('services.logos') !!}" 
-                        class="tag-cloud-link tag-link-24 tag-link-position-1" 
-                        style="font-size: 10.964705882353pt;" 
-                        aria-label="Architectural Signage (2 items)">
-                            Logos
-                    </a>
-                    <br>
-                    <a 
-                        href="{!! route('services.promo-give-aways') !!}" 
-                        class="tag-cloud-link tag-link-24 tag-link-position-1" 
-                        style="font-size: 10.964705882353pt;" 
-                        aria-label="Architectural Signage (2 items)">
-                            Promo Give Aways
-                    </a>
-                    <br>
-                    <a 
-                        href="{!! route('services.drinkwares') !!}" 
-                        class="tag-cloud-link tag-link-24 tag-link-position-1" 
-                        style="font-size: 10.964705882353pt;" 
-                        aria-label="Architectural Signage (2 items)">
-                            Drinkwares
-                    </a>
-                    <br>
-                    <a 
-                        href="{!! route('services.canvas-and-crafts') !!}" 
-                        class="tag-cloud-link tag-link-24 tag-link-position-1" 
-                        style="font-size: 10.964705882353pt;" 
-                        aria-label="Architectural Signage (2 items)">
-                            Canvas and Crafts
-                    </a>
-                    <br>
-                    <a 
-                        href="{!! route('services.desk-and-accessories') !!}" 
-                        class="tag-cloud-link tag-link-24 tag-link-position-1" 
-                        style="font-size: 10.964705882353pt;" 
-                        aria-label="Architectural Signage (2 items)">
-                            Desk and Accessories
-                    </a>
-                    <br>
-                    <a 
-                        href="{!! route('services.apparels-and-textiles') !!}" 
-                        class="tag-cloud-link tag-link-24 tag-link-position-1" 
-                        style="font-size: 10.964705882353pt;" 
-                        aria-label="Architectural Signage (2 items)">
-                            Apparels and Textiles
-                    </a>
-                    <br>
-                    <a 
-                        href="{!! route('services.custom-branded-merchandise') !!}" 
-                        class="tag-cloud-link tag-link-24 tag-link-position-1" 
-                        style="font-size: 10.964705882353pt;" 
-                        aria-label="Architectural Signage (2 items)">
-                            Custom Branded Merchandise
+                        aria-label="Signage">
+                            Signage
                     </a>
                     <br>
                     <a 
                         href="{!! route('services.health-and-safety') !!}" 
                         class="tag-cloud-link tag-link-24 tag-link-position-1" 
                         style="font-size: 10.964705882353pt;" 
-                        aria-label="Architectural Signage (2 items)">
+                        aria-label="Health and Safety">
                             Health and Safety
                     </a>
                     <br>
-     
+                    <a 
+                        href="{!! route('services.promo-merchandise') !!}" 
+                        class="tag-cloud-link tag-link-24 tag-link-position-1" 
+                        style="font-size: 10.964705882353pt;" 
+                        aria-label="Promo Merchandise">
+                            Promo Merchandise
+                    </a>
+                    <br>
+                    <a 
+                        href="{!! route('services.vehicle-branding') !!}" 
+                        class="tag-cloud-link tag-link-24 tag-link-position-1" 
+                        style="font-size: 10.964705882353pt;" 
+                        aria-label="Vehicle Branding">
+                            Vehicle Branding
+                    </a>
+                    <br>
+                    <a 
+                        href="{!! route('services.gallery') !!}" 
+                        class="tag-cloud-link tag-link-24 tag-link-position-1" 
+                        style="font-size: 10.964705882353pt;" 
+                        aria-label="Gallery">
+                            Gallery
+                    </a>
                     
                 </div>
             </section>
@@ -216,11 +174,11 @@
                             Arrowhead Design & Printshop 
                         </a>
                         <br/>
-                        <a href="https://www.linkedin.com" target="_blank" class="social-icon linkedin">
+                        <!-- <a href="https://www.linkedin.com" target="_blank" class="social-icon linkedin">
                             <i class="fa fa-linkedin"></i>
                             Arrowhead Design & Printshop 
                         </a>
-                        <br/>
+                        <br/> -->
                         <a href="https://www.youtube.com" target="_blank" class="social-icon youtube">
                             <i class="fa fa-youtube"></i>
                             Arrowhead Design & Printshop 

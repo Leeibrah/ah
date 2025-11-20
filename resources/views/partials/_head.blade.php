@@ -43,7 +43,7 @@
                         "@type": "WebPage",
                         "@id": "https://www.arrowheadprintshop.com/",
                         "url": "https://www.arrowheadprintshop.com/",
-                        "name": "Sign and Print Ripley in Derbyshire, single vans to fleets | shop signs to corporate re-brands",
+                        "name": "Arrow Head Design & Printshop.",
                         "isPartOf": {
                             "@id": "https://www.arrowheadprintshop.com/#website"
                         },
@@ -53,10 +53,10 @@
                         "image": {
                             "@id": "https://www.arrowheadprintshop.com/#primaryimage"
                         },
-                        "thumbnailUrl": "http://www.signs-print.com/wp-content/themes/signs-print/images/layout/side-graphic.png",
+                        "thumbnailUrl": "http://www.arrowheadprintshop.com/wp-content/themes/signs-print/images/layout/side-graphic.png",
                         "datePublished": "2013-11-25T21:15:05+00:00",
                         "dateModified": "2013-11-26T21:35:50+00:00",
-                        "description": "Sign and Print Ripley in Derbyshire, the quality sign and vehicle graphics designers. Small to multi-national projects, single vehicles to large fleets!",
+                        "description": "Arrow Head Design & Printshop, a ONE-STOP PRINTSHOP committed towards offering custom branding solutions from design concepts through production to the final branded media.",
                         "breadcrumb": {
                             "@id": "https://www.arrowheadprintshop.com/#breadcrumb"
                         },
@@ -72,8 +72,8 @@
                         "@type": "ImageObject",
                         "inLanguage": "en-US",
                         "@id": "https://www.arrowheadprintshop.com/#primaryimage",
-                        "url": "http://www.signs-print.com/wp-content/themes/signs-print/images/layout/side-graphic.png",
-                        "contentUrl": "http://www.signs-print.com/wp-content/themes/signs-print/images/layout/side-graphic.png"
+                        "url": "http://www.arrowheadprintshop.com/wp-content/themes/signs-print/images/layout/side-graphic.png",
+                        "contentUrl": "http://www.arrowheadprintshop.com/wp-content/themes/signs-print/images/layout/side-graphic.png"
                     },
                     {
                         "@type": "BreadcrumbList",
@@ -672,14 +672,14 @@
         
         <script id="photocrati_ajax-js-extra">
             var photocrati_ajax = {
-                "url": "https:\/\/www.signs-print.com\/index.php?photocrati_ajax=1",
-                "rest_url": "https:\/\/www.signs-print.com\/wp-json\/",
-                "wp_home_url": "https:\/\/www.signs-print.com",
-                "wp_site_url": "https:\/\/www.signs-print.com",
-                "wp_root_url": "https:\/\/www.signs-print.com",
-                "wp_plugins_url": "https:\/\/www.signs-print.com\/wp-content\/plugins",
-                "wp_content_url": "https:\/\/www.signs-print.com\/wp-content",
-                "wp_includes_url": "https:\/\/www.signs-print.com\/wp-includes\/",
+                "url": "https:\/\/www.arrowheadprintshop.com\/index.php?photocrati_ajax=1",
+                "rest_url": "https:\/\/www.arrowheadprintshop.com\/wp-json\/",
+                "wp_home_url": "https:\/\/www.arrowheadprintshop.com",
+                "wp_site_url": "https:\/\/www.arrowheadprintshop.com",
+                "wp_root_url": "https:\/\/www.arrowheadprintshop.com",
+                "wp_plugins_url": "https:\/\/www.arrowheadprintshop.com\/wp-content\/plugins",
+                "wp_content_url": "https:\/\/www.arrowheadprintshop.com\/wp-content",
+                "wp_includes_url": "https:\/\/www.arrowheadprintshop.com\/wp-includes\/",
                 "ngg_param_slug": "nggallery",
                 "rest_nonce": "1187e48994"
             };
@@ -697,8 +697,8 @@
         <link rel="alternate" type="application/json" href="/wp-json/wp/v2/pages/33">
         <link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc.php%3Frsd">
         <link rel="shortlink" href="#">
-        <link rel="alternate" type="application/json+oembed" href="/wp-json/oembed/1.0/embed%3Furl=https:%252F%252Fwww.signs-print.com%252F">
-        <link rel="alternate" type="text/xml+oembed" href="/wp-json/oembed/1.0/embed%3Furl=https:%252F%252Fwww.signs-print.com%252F&amp;format=xml">
+        <link rel="alternate" type="application/json+oembed" href="/wp-json/oembed/1.0/embed%3Furl=https:%252F%252Fwww.arrowheadprintshop.com%252F">
+        <link rel="alternate" type="text/xml+oembed" href="/wp-json/oembed/1.0/embed%3Furl=https:%252F%252Fwww.arrowheadprintshop.com%252F&amp;format=xml">
         
         <script>
             document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
